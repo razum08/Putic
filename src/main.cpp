@@ -1539,15 +1539,15 @@ int64_t GetBlockValue(int nBits, int nHeight, const CAmount& nFees)
     double dDiff = (double)0x0000ffff / (double)(nBits & 0x00ffffff);
 	
     /* fixed bug caused diff to not be correctly calculated */
-    if(nHeight > 29035 || Params().NetworkID() == CBaseChainParams::TESTNET) dDiff = ConvertBitsToDouble(nBits);
+    if(nHeight > 99035 || Params().NetworkID() == CBaseChainParams::TESTNET) dDiff = ConvertBitsToDouble(nBits);
 
     int64_t nSubsidy = 0;
-    if(nHeight >= 30000) {
-        if((nHeight >= 33000 && dDiff > 75) || nHeight >= 34000) { // GPU/ASIC difficulty calc
+    if(nHeight >= 100000) {
+        if((nHeight >= 103000 && dDiff > 75) || nHeight >= 104000) { // GPU/ASIC difficulty calc
             // 2222222/(((x+2600)/9)^2)
             nSubsidy = (2222222.0 / (pow((dDiff+2600.0)/9.0,2.0)));
             if (nSubsidy > 5) nSubsidy = 5;
-            if (nSubsidy < 5) nSubsidy = 5;
+            if (nSubsidy < 5) nSubsidy = 1;
         } else { // CPU mining calc
             nSubsidy = (1111.0 / (pow((dDiff+1.0),2.0)));
             if (nSubsidy > 5) nSubsidy = 5;
@@ -1555,7 +1555,7 @@ int64_t GetBlockValue(int nBits, int nHeight, const CAmount& nFees)
         }
     } else {
         nSubsidy = (1111.0 / (pow((dDiff+1.0),2.0)));
-            if (nSubsidy > 5) nSubsidy = 2800;
+            if (nSubsidy > 5) nSubsidy = 840;
             if (nSubsidy < 1) nSubsidy = 1;
     }
 
@@ -1563,7 +1563,7 @@ int64_t GetBlockValue(int nBits, int nHeight, const CAmount& nFees)
     nSubsidy *= COIN;
 
     if(Params().NetworkID() == CBaseChainParams::TESTNET){
-        for(int i = 46200; i <= nHeight; i += 210240) nSubsidy -= nSubsidy/14;
+        for(int i = 146200; i <= nHeight; i += 210240) nSubsidy -= nSubsidy/14;
     } else {
         // yearly decline of production by 7.1% per year, projected 21.3M coins max by year 2050.
         for(int i = 210240; i <= nHeight; i += 210240) nSubsidy -= nSubsidy/14;
@@ -1576,7 +1576,7 @@ int64_t GetBlockValue(int nBits, int nHeight, const CAmount& nFees)
     */
 
     if(Params().NetworkID() == CBaseChainParams::TESTNET){
-        if(nHeight > 77900+576) nSubsidy -= nSubsidy/10;
+        if(nHeight > 177900+576) nSubsidy -= nSubsidy/10;
     } else {
         if(nHeight > 309759+(553*33)) nSubsidy -= nSubsidy/10; // 328008 - 10.0% - September 6, 2015
     }
@@ -1589,25 +1589,25 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue)
     int64_t ret = blockValue/5; // start at 20%
 
     if(Params().NetworkID() == CBaseChainParams::TESTNET) {
-        if(nHeight > 46000)             ret += blockValue / 20; //25% - 2014-10-07
-        if(nHeight > 46000+((576*1)*1)) ret += blockValue / 20; //30% - 2014-10-08
-        if(nHeight > 46000+((576*1)*2)) ret += blockValue / 20; //35% - 2014-10-09
-        if(nHeight > 46000+((576*1)*3)) ret += blockValue / 20; //40% - 2014-10-10
-        if(nHeight > 46000+((576*1)*4)) ret += blockValue / 20; //45% - 2014-10-11
-        if(nHeight > 46000+((576*1)*5)) ret += blockValue / 20; //50% - 2014-10-12
-        if(nHeight > 46000+((576*1)*6)) ret += blockValue / 20; //55% - 2014-10-13
-        if(nHeight > 46000+((576*1)*7)) ret += blockValue / 20; //60% - 2014-10-14
+        if(nHeight > 146000)             ret += blockValue / 20; //25% - 2014-10-07
+        if(nHeight > 146000+((576*1)*1)) ret += blockValue / 20; //30% - 2014-10-08
+        if(nHeight > 146000+((576*1)*2)) ret += blockValue / 20; //35% - 2014-10-09
+        if(nHeight > 146000+((576*1)*3)) ret += blockValue / 20; //40% - 2014-10-10
+        if(nHeight > 146000+((576*1)*4)) ret += blockValue / 20; //45% - 2014-10-11
+        if(nHeight > 146000+((576*1)*5)) ret += blockValue / 20; //50% - 2014-10-12
+        if(nHeight > 146000+((576*1)*6)) ret += blockValue / 20; //55% - 2014-10-13
+        if(nHeight > 146000+((576*1)*7)) ret += blockValue / 20; //60% - 2014-10-14
     }
 
-    if(nHeight > 158000)               ret += blockValue / 20; // 158000 - 25.0% - 2014-10-24
-    if(nHeight > 158000+((576*30)* 1)) ret += blockValue / 20; // 175280 - 30.0% - 2014-11-25
-    if(nHeight > 158000+((576*30)* 2)) ret += blockValue / 20; // 192560 - 35.0% - 2014-12-26
-    if(nHeight > 158000+((576*30)* 3)) ret += blockValue / 40; // 209840 - 37.5% - 2015-01-26
-    if(nHeight > 158000+((576*30)* 4)) ret += blockValue / 40; // 227120 - 40.0% - 2015-02-27
-    if(nHeight > 158000+((576*30)* 5)) ret += blockValue / 40; // 244400 - 42.5% - 2015-03-30
-    if(nHeight > 158000+((576*30)* 6)) ret += blockValue / 40; // 261680 - 45.0% - 2015-05-01
-    if(nHeight > 158000+((576*30)* 7)) ret += blockValue / 40; // 278960 - 47.5% - 2015-06-01
-    if(nHeight > 158000+((576*30)* 9)) ret += blockValue / 40; // 313520 - 50.0% - 2015-08-03
+    if(nHeight > 188000)               ret += blockValue / 20; // 158000 - 25.0% - 2014-10-24
+    if(nHeight > 188000+((576*30)* 1)) ret += blockValue / 20; // 175280 - 30.0% - 2014-11-25
+    if(nHeight > 188000+((576*30)* 2)) ret += blockValue / 20; // 192560 - 35.0% - 2014-12-26
+    if(nHeight > 188000+((576*30)* 3)) ret += blockValue / 40; // 209840 - 37.5% - 2015-01-26
+    if(nHeight > 188000+((576*30)* 4)) ret += blockValue / 40; // 227120 - 40.0% - 2015-02-27
+    if(nHeight > 188000+((576*30)* 5)) ret += blockValue / 40; // 244400 - 42.5% - 2015-03-30
+    if(nHeight > 188000+((576*30)* 6)) ret += blockValue / 40; // 261680 - 45.0% - 2015-05-01
+    if(nHeight > 188000+((576*30)* 7)) ret += blockValue / 40; // 278960 - 47.5% - 2015-06-01
+    if(nHeight > 188000+((576*30)* 9)) ret += blockValue / 40; // 313520 - 50.0% - 2015-08-03
 
     /* 
         Hard for will activate on block 348080 separating the two networks (v11 and earier and v12)
