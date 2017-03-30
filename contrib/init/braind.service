@@ -1,15 +1,15 @@
 [Unit]
-Description=Brain's distributed currency daemon
+Description=Putic's distributed currency daemon
 After=network.target
 
 [Service]
-User=brain
-Group=brain
+User=putic
+Group=putic
 
 Type=forking
-PIDFile=/var/lib/braind/braind.pid
-ExecStart=/usr/bin/braind -daemon -pid=/var/lib/braind/braind.pid \
--conf=/etc/brain/brain.conf -datadir=/var/lib/braind -disablewallet
+PIDFile=/var/lib/puticd/puticd.pid
+ExecStart=/usr/bin/puticd -daemon -pid=/var/lib/puticd/puticd.pid \
+-conf=/etc/putic/putic.conf -datadir=/var/lib/puticd -disablewallet
 
 Restart=always
 PrivateTmp=true

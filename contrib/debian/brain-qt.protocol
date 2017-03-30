@@ -1,6 +1,6 @@
 [Protocol]
-exec=brain-qt '%u'
-protocol=brain
+exec=putic-qt '%u'
+protocol=putic
 input=none
 output=none
 helper=true

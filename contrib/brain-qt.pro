@@ -78,7 +78,7 @@ HEADERS += src/activemasternode.h \
            src/crypter.h \
            src/darksend-relay.h \
            src/darksend.h \
-           src/brain-config.h \
+           src/putic-config.h \
            src/db.h \
            src/eccryptoverify.h \
            src/ecwrapper.h \
@@ -131,7 +131,7 @@ HEADERS += src/activemasternode.h \
            src/wallet_ismine.h \
            src/walletdb.h \
            src/compat/sanity.h \
-           src/config/brain-config.h \
+           src/config/putic-config.h \
            src/crypto/common.h \
            src/crypto/hmac_sha256.h \
            src/crypto/hmac_sha512.h \
@@ -333,7 +333,7 @@ HEADERS += src/activemasternode.h \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h \
            src/crypto/aes_helper.c \
            src/qt/bitcoinamountfield.moc \
-           src/qt/brain.moc \
+           src/qt/putic.moc \
            src/qt/intro.moc \
            src/qt/overviewpage.moc \
            src/qt/rpcconsole.moc \
@@ -374,9 +374,9 @@ SOURCES += src/activemasternode.cpp \
            src/crypter.cpp \
            src/darksend-relay.cpp \
            src/darksend.cpp \
-           src/brain-cli.cpp \
-           src/brain-tx.cpp \
-           src/braind.cpp \
+           src/putic-cli.cpp \
+           src/putic-tx.cpp \
+           src/puticd.cpp \
            src/db.cpp \
            src/eccryptoverify.cpp \
            src/ecwrapper.cpp \
@@ -471,8 +471,8 @@ SOURCES += src/activemasternode.cpp \
            src/qt/coincontroltreewidget.cpp \
            src/qt/csvmodelwriter.cpp \
            src/qt/darksendconfig.cpp \
-           src/qt/brain.cpp \
-           src/qt/brainstrings.cpp \
+           src/qt/putic.cpp \
+           src/qt/puticstrings.cpp \
            src/qt/editaddressdialog.cpp \
            src/qt/guiutil.cpp \
            src/qt/intro.cpp \
@@ -550,7 +550,7 @@ SOURCES += src/activemasternode.cpp \
            src/test/sighash_tests.cpp \
            src/test/sigopcount_tests.cpp \
            src/test/skiplist_tests.cpp \
-           src/test/test_brain.cpp \
+           src/test/test_putic.cpp \
            src/test/timedata_tests.cpp \
            src/test/transaction_tests.cpp \
            src/test/uint256_tests.cpp \
@@ -641,20 +641,20 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/brain.qrc src/qt/brain_locale.qrc
-TRANSLATIONS += src/qt/locale/brain_bg.ts \
-                src/qt/locale/brain_de.ts \
-                src/qt/locale/brain_en.ts \
-                src/qt/locale/brain_es.ts \
-                src/qt/locale/brain_fi.ts \
-                src/qt/locale/brain_fr.ts \
-                src/qt/locale/brain_it.ts \
-                src/qt/locale/brain_ja.ts \
-                src/qt/locale/brain_pl.ts \
-                src/qt/locale/brain_pt.ts \
-                src/qt/locale/brain_ru.ts \
-                src/qt/locale/brain_sk.ts \
-                src/qt/locale/brain_sv.ts \
-                src/qt/locale/brain_vi.ts \
-                src/qt/locale/brain_zh_CN.ts \
-                src/qt/locale/brain_zh_TW.ts
+RESOURCES += src/qt/putic.qrc src/qt/putic_locale.qrc
+TRANSLATIONS += src/qt/locale/putic_bg.ts \
+                src/qt/locale/putic_de.ts \
+                src/qt/locale/putic_en.ts \
+                src/qt/locale/putic_es.ts \
+                src/qt/locale/putic_fi.ts \
+                src/qt/locale/putic_fr.ts \
+                src/qt/locale/putic_it.ts \
+                src/qt/locale/putic_ja.ts \
+                src/qt/locale/putic_pl.ts \
+                src/qt/locale/putic_pt.ts \
+                src/qt/locale/putic_ru.ts \
+                src/qt/locale/putic_sk.ts \
+                src/qt/locale/putic_sv.ts \
+                src/qt/locale/putic_vi.ts \
+                src/qt/locale/putic_zh_CN.ts \
+                src/qt/locale/putic_zh_TW.ts

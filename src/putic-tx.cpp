@@ -47,10 +47,10 @@ static bool AppInitRawTx(int argc, char* argv[])
     if (argc<2 || mapArgs.count("-?") || mapArgs.count("-help"))
     {
         // First part of help message is specific to this utility
-        std::string strUsage = _("Brain Core brain-tx utility version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("Putic Core putic-tx utility version") + " " + FormatFullVersion() + "\n\n" +
             _("Usage:") + "\n" +
-              "  brain-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded brain transaction") + "\n" +
-              "  brain-tx [options] -create [commands]   " + _("Create hex-encoded brain transaction") + "\n" +
+              "  putic-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded putic transaction") + "\n" +
+              "  putic-tx [options] -create [commands]   " + _("Create hex-encoded putic transaction") + "\n" +
               "\n";
 
         fprintf(stdout, "%s", strUsage.c_str());
@@ -555,7 +555,7 @@ static int CommandLineRawTx(int argc, char* argv[])
             if (argc < 2)
                 throw runtime_error("too few parameters");
 
-            // param: hex-encoded brain transaction
+            // param: hex-encoded putic transaction
             string strHexTx(argv[1]);
             if (strHexTx == "-")                 // "-" implies standard input
                 strHexTx = readStdin();

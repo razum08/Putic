@@ -78,13 +78,13 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your Brain addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>These are your Brain addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+        <source>These are your Putic addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>These are your Putic addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your Brain addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>These are your Brain addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
+        <source>These are your Putic addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>These are your Putic addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -219,8 +219,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BRAIN&lt;/b&gt;!</source>
-        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BRAIN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PUTIC&lt;/b&gt;!</source>
+        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PUTIC&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -235,8 +235,8 @@
     </message>
     <message>
         <location line="-57"/>
-        <source>Brain will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your brains from being stolen by malware infecting your computer.</source>
-        <translation>Brain will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your brains from being stolen by malware infecting your computer.</translation>
+        <source>Putic will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your putics from being stolen by malware infecting your computer.</source>
+        <translation>Putic will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your putics from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -296,8 +296,8 @@
     <message>
         <location filename="../bitcoingui.cpp" line="+108"/>
         <location line="+752"/>
-        <source>Brain Core</source>
-        <translation>Brain Core</translation>
+        <source>Putic Core</source>
+        <translation>Putic Core</translation>
     </message>
     <message>
         <location line="-743"/>
@@ -326,8 +326,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Send coins to a Brain address</source>
-        <translation>Send coins to a Brain address</translation>
+        <source>Send coins to a Putic address</source>
+        <translation>Send coins to a Putic address</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -336,8 +336,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Request payments (generates QR codes and brain: URIs)</source>
-        <translation>Request payments (generates QR codes and brain: URIs)</translation>
+        <source>Request payments (generates QR codes and putic: URIs)</source>
+        <translation>Request payments (generates QR codes and putic: URIs)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -361,13 +361,13 @@
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;About Brain Core</source>
-        <translation>&amp;About Brain Core</translation>
+        <source>&amp;About Putic Core</source>
+        <translation>&amp;About Putic Core</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about Brain Core</source>
-        <translation>Show information about Brain Core</translation>
+        <source>Show information about Putic Core</source>
+        <translation>Show information about Putic Core</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -387,8 +387,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Modify configuration options for Brain</source>
-        <translation>Modify configuration options for Brain</translation>
+        <source>Modify configuration options for Putic</source>
+        <translation>Modify configuration options for Putic</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -452,8 +452,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Sign messages with your Brain addresses to prove you own them</source>
-        <translation>Sign messages with your Brain addresses to prove you own them</translation>
+        <source>Sign messages with your Putic addresses to prove you own them</source>
+        <translation>Sign messages with your Putic addresses to prove you own them</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -462,8 +462,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Verify messages to ensure they were signed with specified Brain addresses</source>
-        <translation>Verify messages to ensure they were signed with specified Brain addresses</translation>
+        <source>Verify messages to ensure they were signed with specified Putic addresses</source>
+        <translation>Verify messages to ensure they were signed with specified Putic addresses</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -562,8 +562,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Open a brain: URI or payment request</source>
-        <translation>Open a brain: URI or payment request</translation>
+        <source>Open a putic: URI or payment request</source>
+        <translation>Open a putic: URI or payment request</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -572,8 +572,8 @@
     </message>
     <message>
         <location line="+196"/>
-        <source>Brain Core client</source>
-        <translation>Brain Core client</translation>
+        <source>Putic Core client</source>
+        <translation>Putic Core client</translation>
     </message>
     <message numerus="yes">
         <location line="+182"/>
@@ -587,8 +587,8 @@
     </message>
     <message>
         <location line="-407"/>
-        <source>Show the Brain Core help message to get a list with possible Brain command-line options</source>
-        <translation>Show the Brain Core help message to get a list with possible Brain command-line options</translation>
+        <source>Show the Putic Core help message to get a list with possible Putic command-line options</source>
+        <translation>Show the Putic Core help message to get a list with possible Putic command-line options</translation>
     </message>
     <message>
         <location line="+36"/>
@@ -617,8 +617,8 @@
     </message>
     <message numerus="yes">
         <location line="+256"/>
-        <source>%n active connection(s) to Brain network</source>
-        <translation><numerusform>%n active connection to Brain network</numerusform><numerusform>%n active connections to Brain network</numerusform></translation>
+        <source>%n active connection(s) to Putic network</source>
+        <translation><numerusform>%n active connection to Putic network</numerusform><numerusform>%n active connections to Putic network</numerusform></translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1090,13 +1090,13 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 2 separate masternodes to mix funds up to 1000 BRAIN</source>
-        <translation>Use 2 separate masternodes to mix funds up to 1000 BRAIN</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000 PUTIC</source>
+        <translation>Use 2 separate masternodes to mix funds up to 1000 PUTIC</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 8 separate masternodes to mix funds up to 1000 BRAIN</source>
-        <translation>Use 8 separate masternodes to mix funds up to 1000 BRAIN</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000 PUTIC</source>
+        <translation>Use 8 separate masternodes to mix funds up to 1000 PUTIC</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1105,18 +1105,18 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is the quickest and will cost about ~0.025 BRAIN to anonymize 1000 BRAIN</source>
-        <translation>This option is the quickest and will cost about ~0.025 BRAIN to anonymize 1000 BRAIN</translation>
+        <source>This option is the quickest and will cost about ~0.025 PUTIC to anonymize 1000 PUTIC</source>
+        <translation>This option is the quickest and will cost about ~0.025 PUTIC to anonymize 1000 PUTIC</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is moderately fast and will cost about 0.05 BRAIN to anonymize 1000 BRAIN</source>
-        <translation>This option is moderately fast and will cost about 0.05 BRAIN to anonymize 1000 BRAIN</translation>
+        <source>This option is moderately fast and will cost about 0.05 PUTIC to anonymize 1000 PUTIC</source>
+        <translation>This option is moderately fast and will cost about 0.05 PUTIC to anonymize 1000 PUTIC</translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>0.1 BRAIN per 1000 BRAIN you anonymize.</source>
-        <translation>0.1 BRAIN per 1000 BRAIN you anonymize.</translation>
+        <source>0.1 PUTIC per 1000 PUTIC you anonymize.</source>
+        <translation>0.1 PUTIC per 1000 PUTIC you anonymize.</translation>
     </message>
     <message>
         <location line="-13"/>
@@ -1132,18 +1132,18 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Brain&apos;s configuration screen.</source>
-        <translation>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Brain&apos;s configuration screen.</translation>
+        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Putic&apos;s configuration screen.</source>
+        <translation>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Putic&apos;s configuration screen.</translation>
     </message>
     <message>
         <location line="+15"/>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Brain&apos;s configuration screen.</source>
-        <translation>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Brain&apos;s configuration screen.</translation>
+        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Putic&apos;s configuration screen.</source>
+        <translation>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Putic&apos;s configuration screen.</translation>
     </message>
     <message>
         <location line="+15"/>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Brain&apos;s configuration screen.</source>
-        <translation>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Brain&apos;s configuration screen.</translation>
+        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Putic&apos;s configuration screen.</source>
+        <translation>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Putic&apos;s configuration screen.</translation>
     </message>
 </context>
 <context>
@@ -1195,8 +1195,8 @@ Address: %4
     </message>
     <message>
         <location line="+71"/>
-        <source>The entered address &quot;%1&quot; is not a valid Brain address.</source>
-        <translation>The entered address &quot;%1&quot; is not a valid Brain address.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Putic address.</source>
+        <translation>The entered address &quot;%1&quot; is not a valid Putic address.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1246,8 +1246,8 @@ Address: %4
     <name>HelpMessageDialog</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+32"/>
-        <source>Brain Core</source>
-        <translation>Brain Core</translation>
+        <source>Putic Core</source>
+        <translation>Putic Core</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1262,8 +1262,8 @@ Address: %4
     </message>
     <message>
         <location line="+5"/>
-        <source>About Brain Core</source>
-        <translation>About Brain Core</translation>
+        <source>About Putic Core</source>
+        <translation>About Putic Core</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1320,18 +1320,18 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to Brain Core.</source>
-        <translation>Welcome to Brain Core.</translation>
+        <source>Welcome to Putic Core.</source>
+        <translation>Welcome to Putic Core.</translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where Brain Core will store its data.</source>
-        <translation>As this is the first time the program is launched, you can choose where Brain Core will store its data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Putic Core will store its data.</source>
+        <translation>As this is the first time the program is launched, you can choose where Putic Core will store its data.</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Brain Core will download and store a copy of the Brain block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Brain Core will download and store a copy of the Brain block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
+        <source>Putic Core will download and store a copy of the Putic block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Putic Core will download and store a copy of the Putic block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1345,8 +1345,8 @@ Address: %4
     </message>
     <message>
         <location filename="../intro.cpp" line="+82"/>
-        <source>Brain Core</source>
-        <translation>Brain Core</translation>
+        <source>Putic Core</source>
+        <translation>Putic Core</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1411,13 +1411,13 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically start Brain after logging in to the system.</source>
-        <translation>Automatically start Brain after logging in to the system.</translation>
+        <source>Automatically start Putic after logging in to the system.</source>
+        <translation>Automatically start Putic after logging in to the system.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Brain on system login</source>
-        <translation>&amp;Start Brain on system login</translation>
+        <source>&amp;Start Putic on system login</source>
+        <translation>&amp;Start Putic on system login</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1451,8 +1451,8 @@ Address: %4
     </message>
     <message>
         <location line="+15"/>
-        <source>Amount of Brain to keep anonymized</source>
-        <translation>Amount of Brain to keep anonymized</translation>
+        <source>Amount of Putic to keep anonymized</source>
+        <translation>Amount of Putic to keep anonymized</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -1476,8 +1476,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Brain network through a SOCKS5 proxy.</source>
-        <translation>Connect to the Brain network through a SOCKS5 proxy.</translation>
+        <source>Connect to the Putic network through a SOCKS5 proxy.</source>
+        <translation>Connect to the Putic network through a SOCKS5 proxy.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1516,8 +1516,8 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Brain client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the Brain client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the Putic client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the Putic client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1581,15 +1581,15 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Brain.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting Brain.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Putic.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting Putic.</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/brain/</source>
+https://www.transifex.com/projects/p/putic/</source>
         <translation>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/brain/</translation>
+https://www.transifex.com/projects/p/putic/</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1695,8 +1695,8 @@ https://www.transifex.com/projects/p/brain/</translation>
         <location line="+53"/>
         <location line="+1015"/>
         <location line="+77"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Brain network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Brain network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Putic network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Putic network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-843"/>
@@ -1800,8 +1800,8 @@ https://www.transifex.com/projects/p/brain/</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>0 BRAIN / 0 Rounds</source>
-        <translation>0 BRAIN / 0 Rounds</translation>
+        <source>0 PUTIC / 0 Rounds</source>
+        <translation>0 PUTIC / 0 Rounds</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1990,8 +1990,8 @@ https://www.transifex.com/projects/p/brain/</translation>
     </message>
     <message>
         <location line="-400"/>
-        <source>Cannot start brain: click-to-pay handler</source>
-        <translation>Cannot start brain: click-to-pay handler</translation>
+        <source>Cannot start putic: click-to-pay handler</source>
+        <translation>Cannot start putic: click-to-pay handler</translation>
     </message>
     <message>
         <location line="+104"/>
@@ -2017,8 +2017,8 @@ https://www.transifex.com/projects/p/brain/</translation>
     </message>
     <message>
         <location line="+8"/>
-        <source>URI cannot be parsed! This can be caused by an invalid Brain address or malformed URI parameters.</source>
-        <translation>URI cannot be parsed! This can be caused by an invalid Brain address or malformed URI parameters.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Putic address or malformed URI parameters.</source>
+        <translation>URI cannot be parsed! This can be caused by an invalid Putic address or malformed URI parameters.</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2125,8 +2125,8 @@ https://www.transifex.com/projects/p/brain/</translation>
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+110"/>
-        <source>Enter a Brain address (e.g. %1)</source>
-        <translation>Enter a Brain address (e.g. %1)</translation>
+        <source>Enter a Putic address (e.g. %1)</source>
+        <translation>Enter a Putic address (e.g. %1)</translation>
     </message>
     <message>
         <location line="+760"/>
@@ -2259,8 +2259,8 @@ https://www.transifex.com/projects/p/brain/</translation>
     </message>
     <message>
         <location line="+76"/>
-        <source>Open the Brain debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the Brain debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open the Putic debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the Putic debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2521,8 +2521,8 @@ https://www.transifex.com/projects/p/brain/</translation>
     </message>
     <message>
         <location line="-35"/>
-        <source>Welcome to the Brain RPC console.</source>
-        <translation>Welcome to the Brain RPC console.</translation>
+        <source>Welcome to the Putic RPC console.</source>
+        <translation>Welcome to the Putic RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2601,8 +2601,8 @@ https://www.transifex.com/projects/p/brain/</translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Brain network.</source>
-        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Brain network.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Putic network.</source>
+        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Putic network.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2617,8 +2617,8 @@ https://www.transifex.com/projects/p/brain/</translation>
     </message>
     <message>
         <location line="-14"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Brain network.</source>
-        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Brain network.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Putic network.</source>
+        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Putic network.</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -2925,8 +2925,8 @@ https://www.transifex.com/projects/p/brain/</translation>
     <message>
         <location line="+33"/>
         <location line="+13"/>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for brain transactions than the network can process.</source>
-        <translation>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for brain transactions than the network can process.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for putic transactions than the network can process.</source>
+        <translation>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for putic transactions than the network can process.</translation>
     </message>
     <message>
         <location line="-59"/>
@@ -3186,8 +3186,8 @@ https://www.transifex.com/projects/p/brain/</translation>
     </message>
     <message>
         <location line="+129"/>
-        <source>Warning: Invalid Brain address</source>
-        <translation>Warning: Invalid Brain address</translation>
+        <source>Warning: Invalid Putic address</source>
+        <translation>Warning: Invalid Putic address</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -3214,8 +3214,8 @@ https://www.transifex.com/projects/p/brain/</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The Brain address to send the payment to</source>
-        <translation>The Brain address to send the payment to</translation>
+        <source>The Putic address to send the payment to</source>
+        <translation>The Putic address to send the payment to</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -3268,8 +3268,8 @@ https://www.transifex.com/projects/p/brain/</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>A message that was attached to the brain: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Brain network.</source>
-        <translation>A message that was attached to the brain: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Brain network.</translation>
+        <source>A message that was attached to the putic: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Putic network.</source>
+        <translation>A message that was attached to the putic: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Putic network.</translation>
     </message>
     <message>
         <location line="+426"/>
@@ -3303,8 +3303,8 @@ https://www.transifex.com/projects/p/brain/</translation>
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+43"/>
-        <source>Brain Core is shutting down...</source>
-        <translation>Brain Core is shutting down...</translation>
+        <source>Putic Core is shutting down...</source>
+        <translation>Putic Core is shutting down...</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3331,8 +3331,8 @@ https://www.transifex.com/projects/p/brain/</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The Brain address to sign the message with</source>
-        <translation>The Brain address to sign the message with</translation>
+        <source>The Putic address to sign the message with</source>
+        <translation>The Putic address to sign the message with</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -3373,8 +3373,8 @@ https://www.transifex.com/projects/p/brain/</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Brain address</source>
-        <translation>Sign the message to prove you own this Brain address</translation>
+        <source>Sign the message to prove you own this Putic address</source>
+        <translation>Sign the message to prove you own this Putic address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3404,13 +3404,13 @@ https://www.transifex.com/projects/p/brain/</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The Brain address the message was signed with</source>
-        <translation>The Brain address the message was signed with</translation>
+        <source>The Putic address the message was signed with</source>
+        <translation>The Putic address the message was signed with</translation>
     </message>
     <message>
         <location line="+37"/>
-        <source>Verify the message to ensure it was signed with the specified Brain address</source>
-        <translation>Verify the message to ensure it was signed with the specified Brain address</translation>
+        <source>Verify the message to ensure it was signed with the specified Putic address</source>
+        <translation>Verify the message to ensure it was signed with the specified Putic address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3498,8 +3498,8 @@ https://www.transifex.com/projects/p/brain/</translation>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+36"/>
-        <source>Brain Core</source>
-        <translation>Brain Core</translation>
+        <source>Putic Core</source>
+        <translation>Putic Core</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3513,8 +3513,8 @@ https://www.transifex.com/projects/p/brain/</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>The Brain Core developers</source>
-        <translation>The Brain Core developers</translation>
+        <source>The Putic Core developers</source>
+        <translation>The Putic Core developers</translation>
     </message>
     <message>
         <location filename="../networkstyle.cpp" line="+19"/>
@@ -4189,8 +4189,8 @@ https://www.transifex.com/projects/p/brain/</translation>
     <message>
         <location line="-20"/>
         <location line="+9"/>
-        <source>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 BRAIN.</source>
-        <translation>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 BRAIN.</translation>
+        <source>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 PUTIC.</source>
+        <translation>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 PUTIC.</translation>
     </message>
 </context>
 <context>
@@ -4242,16 +4242,16 @@ https://www.transifex.com/projects/p/brain/</translation>
     </message>
 </context>
 <context>
-    <name>brain-core</name>
+    <name>putic-core</name>
     <message>
-        <location filename="../brainstrings.cpp" line="+22"/>
+        <location filename="../puticstrings.cpp" line="+22"/>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Bind to given address and always listen on it. Use [host]:port notation for IPv6</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Cannot obtain a lock on data directory %s. Brain Core is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s. Brain Core is probably already running.</translation>
+        <source>Cannot obtain a lock on data directory %s. Putic Core is probably already running.</source>
+        <translation>Cannot obtain a lock on data directory %s. Putic Core is probably already running.</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -4320,8 +4320,8 @@ https://www.transifex.com/projects/p/brain/</translation>
     </message>
     <message>
         <location line="+20"/>
-        <source>Unable to bind to %s on this computer. Brain Core is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. Brain Core is probably already running.</translation>
+        <source>Unable to bind to %s on this computer. Putic Core is probably already running.</source>
+        <translation>Unable to bind to %s on this computer. Putic Core is probably already running.</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -4330,8 +4330,8 @@ https://www.transifex.com/projects/p/brain/</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 BRAIN.</source>
-        <translation>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 BRAIN.</translation>
+        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 PUTIC.</source>
+        <translation>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 PUTIC.</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -4610,8 +4610,8 @@ https://www.transifex.com/projects/p/brain/</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Disable all Brain specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
-        <translation>Disable all Brain specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</translation>
+        <source>Disable all Putic specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
+        <translation>Disable all Putic specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -4635,13 +4635,13 @@ https://www.transifex.com/projects/p/brain/</translation>
     </message>
     <message>
         <location line="+12"/>
-        <source>Fees (in BRAIN/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Fees (in BRAIN/Kb) smaller than this are considered zero fee for relaying (default: %s)</translation>
+        <source>Fees (in PUTIC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Fees (in PUTIC/Kb) smaller than this are considered zero fee for relaying (default: %s)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in BRAIN/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Fees (in BRAIN/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</translation>
+        <source>Fees (in PUTIC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Fees (in PUTIC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -4730,33 +4730,33 @@ https://www.transifex.com/projects/p/brain/</translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>To use braind, or the -server option to brain-qt, you must set an rpcpassword in the configuration file:
+        <source>To use puticd, or the -server option to putic-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=brainrpc
+rpcuser=puticrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Brain Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Putic Alert&quot; admin@foo.com
 </source>
-        <translation>To use braind, or the -server option to brain-qt, you must set an rpcpassword in the configuration file:
+        <translation>To use puticd, or the -server option to putic-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=brainrpc
+rpcuser=puticrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Brain Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Putic Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
         <location line="+20"/>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 BRAIN.</source>
-        <translation>Unable to locate enough funds for this transaction that are not equal 1000 BRAIN.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 1000 PUTIC.</source>
+        <translation>Unable to locate enough funds for this transaction that are not equal 1000 PUTIC.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -4770,8 +4770,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Brain Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+6"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Brain Core will not work properly.</source>
-        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Brain Core will not work properly.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Putic Core will not work properly.</source>
+        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Putic Core will not work properly.</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -4837,8 +4837,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Brain Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2014-%i The Brain Core Developers</source>
-        <translation>Copyright (C) 2014-%i The Brain Core Developers</translation>
+        <source>Copyright (C) 2014-%i The Putic Core Developers</source>
+        <translation>Copyright (C) 2014-%i The Putic Core Developers</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -4877,8 +4877,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Brain Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+6"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Brain Core</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of Brain Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Putic Core</source>
+        <translation>Error loading wallet.dat: Wallet requires newer version of Putic Core</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -4897,8 +4897,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Brain Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+5"/>
-        <source>Fee (in BRAIN/kB) to add to transactions you send (default: %s)</source>
-        <translation>Fee (in BRAIN/kB) to add to transactions you send (default: %s)</translation>
+        <source>Fee (in PUTIC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Fee (in PUTIC/kB) to add to transactions you send (default: %s)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4967,8 +4967,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Brain Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+1"/>
-        <source>Initialization sanity check failed. Brain Core is shutting down.</source>
-        <translation>Initialization sanity check failed. Brain Core is shutting down.</translation>
+        <source>Initialization sanity check failed. Putic Core is shutting down.</source>
+        <translation>Initialization sanity check failed. Putic Core is shutting down.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5282,8 +5282,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Brain Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+9"/>
-        <source>Wallet needed to be rewritten: restart Brain Core to complete</source>
-        <translation>Wallet needed to be rewritten: restart Brain Core to complete</translation>
+        <source>Wallet needed to be rewritten: restart Putic Core to complete</source>
+        <translation>Wallet needed to be rewritten: restart Putic Core to complete</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -5357,8 +5357,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Brain Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+1"/>
-        <source>Keep N BRAIN anonymized (default: %u)</source>
-        <translation>Keep N BRAIN anonymized (default: %u)</translation>
+        <source>Keep N PUTIC anonymized (default: %u)</source>
+        <translation>Keep N PUTIC anonymized (default: %u)</translation>
     </message>
     <message>
         <location line="+1"/>

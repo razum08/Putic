@@ -62,12 +62,12 @@
         <translation>Адреса получения</translation>
     </message>
     <message>
-        <source>These are your Brain addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Это ваши адреса Brain для отправки платежей. Всегда проверяйте количество и адрес получателя перед отправкой перевода.</translation>
+        <source>These are your Putic addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Это ваши адреса Putic для отправки платежей. Всегда проверяйте количество и адрес получателя перед отправкой перевода.</translation>
     </message>
     <message>
-        <source>These are your Brain addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Это ваши адреса Brain для приёма платежей. Рекомендуется использовать новый адрес получения для каждой транзакции.</translation>
+        <source>These are your Putic addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Это ваши адреса Putic для приёма платежей. Рекомендуется использовать новый адрес получения для каждой транзакции.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Подтвердите шифрование кошелька</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BRAIN&lt;/b&gt;!</source>
-        <translation>Внимание: если Вы зашифруете кошелёк и потеряете пароль, вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ ВАШИ BRAIN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PUTIC&lt;/b&gt;!</source>
+        <translation>Внимание: если Вы зашифруете кошелёк и потеряете пароль, вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ ВАШИ PUTIC&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -188,7 +188,7 @@
         <translation>Кошелёк зашифрован</translation>
     </message>
     <message>
-        <source>Brain will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your brains from being stolen by malware infecting your computer.</source>
+        <source>Putic will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your putics from being stolen by malware infecting your computer.</source>
         <translation>Сейчас программа закроется для завершения процесса шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши даши от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
     </message>
     <message>
@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Brain Core</source>
-        <translation>Brain Core</translation>
+        <source>Putic Core</source>
+        <translation>Putic Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -255,16 +255,16 @@
         <translation>&amp;Отправить</translation>
     </message>
     <message>
-        <source>Send coins to a Brain address</source>
-        <translation>Отправить монеты на указанный адрес Brain</translation>
+        <source>Send coins to a Putic address</source>
+        <translation>Отправить монеты на указанный адрес Putic</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
         <translation>&amp;Получить</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and brain: URIs)</source>
-        <translation>Запросить платежи (создать QR-коды и brain: URI)</translation>
+        <source>Request payments (generates QR codes and putic: URIs)</source>
+        <translation>Запросить платежи (создать QR-коды и putic: URI)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -283,12 +283,12 @@
         <translation>Закрыть приложение</translation>
     </message>
     <message>
-        <source>&amp;About Brain Core</source>
-        <translation>О &amp;Brain Core</translation>
+        <source>&amp;About Putic Core</source>
+        <translation>О &amp;Putic Core</translation>
     </message>
     <message>
-        <source>Show information about Brain Core</source>
-        <translation>Показать информацию о Brain Core</translation>
+        <source>Show information about Putic Core</source>
+        <translation>Показать информацию о Putic Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -303,8 +303,8 @@
         <translation>&amp;Настройки...</translation>
     </message>
     <message>
-        <source>Modify configuration options for Brain</source>
-        <translation>Изменить параметры конфигурации Brain</translation>
+        <source>Modify configuration options for Putic</source>
+        <translation>Изменить параметры конфигурации Putic</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -355,16 +355,16 @@
         <translation>П&amp;одписать сообщение...</translation>
     </message>
     <message>
-        <source>Sign messages with your Brain addresses to prove you own them</source>
-        <translation>Подписать сообщения вашими адресами Brain, чтобы доказать, что вы ими владеете</translation>
+        <source>Sign messages with your Putic addresses to prove you own them</source>
+        <translation>Подписать сообщения вашими адресами Putic, чтобы доказать, что вы ими владеете</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>П&amp;роверить сообщение...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Brain addresses</source>
-        <translation>Проверить сообщения, чтобы удостовериться, что они были подписаны определёнными адресами Brain</translation>
+        <source>Verify messages to ensure they were signed with specified Putic addresses</source>
+        <translation>Проверить сообщения, чтобы удостовериться, что они были подписаны определёнными адресами Putic</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -443,16 +443,16 @@
         <translation>Открыть &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a brain: URI or payment request</source>
-        <translation>Открыть brain: URI или запрос платежа</translation>
+        <source>Open a putic: URI or payment request</source>
+        <translation>Открыть putic: URI или запрос платежа</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Параметры командной строки</translation>
     </message>
     <message>
-        <source>Brain Core client</source>
-        <translation>Клиент Brain Core</translation>
+        <source>Putic Core client</source>
+        <translation>Клиент Putic Core</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
@@ -463,8 +463,8 @@
         <translation>Синхронизация дополнительных данных: %p%</translation>
     </message>
     <message>
-        <source>Show the Brain Core help message to get a list with possible Brain command-line options</source>
-        <translation>Показать помощь о Brain Core со списком возможных параметров командной строки</translation>
+        <source>Show the Putic Core help message to get a list with possible Putic command-line options</source>
+        <translation>Показать помощь о Putic Core со списком возможных параметров командной строки</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -487,8 +487,8 @@
         <translation>Панель вкладок</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Brain network</source>
-        <translation><numerusform>%n активное соединение с сетью Brain</numerusform><numerusform>%n активных соединения с сетью Brain</numerusform><numerusform>%n активных соединений с сетью Brain</numerusform><numerusform>%n активных соединений с сетью Brain</numerusform></translation>
+        <source>%n active connection(s) to Putic network</source>
+        <translation><numerusform>%n активное соединение с сетью Putic</numerusform><numerusform>%n активных соединения с сетью Putic</numerusform><numerusform>%n активных соединений с сетью Putic</numerusform><numerusform>%n активных соединений с сетью Putic</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -864,28 +864,28 @@ Address: %4
         <translation>Пожалуйста, выберите уровень приватности.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 BRAIN</source>
-        <translation>Использовать 2 отдельные мастерноды для перемешивания до 1000 BRAIN</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000 PUTIC</source>
+        <translation>Использовать 2 отдельные мастерноды для перемешивания до 1000 PUTIC</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 BRAIN</source>
-        <translation>Использовать 8 отдельных мастернод для перемешивания до 1000 BRAIN</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000 PUTIC</source>
+        <translation>Использовать 8 отдельных мастернод для перемешивания до 1000 PUTIC</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Использовать 16 отдельных мастернод</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 BRAIN to anonymize 1000 BRAIN</source>
-        <translation>Это самый быстрый вариант, анонимизация 1000 BRAIN будет стоить вам примерно 0.025 BRAIN</translation>
+        <source>This option is the quickest and will cost about ~0.025 PUTIC to anonymize 1000 PUTIC</source>
+        <translation>Это самый быстрый вариант, анонимизация 1000 PUTIC будет стоить вам примерно 0.025 PUTIC</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 BRAIN to anonymize 1000 BRAIN</source>
-        <translation>Это относительно быстрый вариант, анонимизация 1000 BRAIN будет стоить вам примерно 0.05 BRAIN</translation>
+        <source>This option is moderately fast and will cost about 0.05 PUTIC to anonymize 1000 PUTIC</source>
+        <translation>Это относительно быстрый вариант, анонимизация 1000 PUTIC будет стоить вам примерно 0.05 PUTIC</translation>
     </message>
     <message>
-        <source>0.1 BRAIN per 1000 BRAIN you anonymize.</source>
-        <translation>0.1 BRAIN за каждые анонимизированные 1000 BRAIN.</translation>
+        <source>0.1 PUTIC per 1000 PUTIC you anonymize.</source>
+        <translation>0.1 PUTIC за каждые анонимизированные 1000 PUTIC.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -896,15 +896,15 @@ Address: %4
         <translation>Настройки Darksend</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Brain's configuration screen.</source>
+        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Putic's configuration screen.</source>
         <translation>Darksend успешно установлен в режим обычной приватности (%1 и 2 раунда). Вы можете изменить это в любое время, используя окно настроек.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Brain's configuration screen.</source>
+        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Putic's configuration screen.</source>
         <translation>Darksend успешно установлен в режим высокой приватности (%1 и 8 раундов). Вы можете изменить это в любое время, используя окно настроек.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Brain's configuration screen.</source>
+        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Putic's configuration screen.</source>
         <translation>Darksend успешно установлен в режим максимально приватности (%1 и 16 раундов). Вы можете изменить это в любое время, используя окно настроек.</translation>
     </message>
 </context>
@@ -947,8 +947,8 @@ Address: %4
         <translation>Изменение адреса для отправки</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Brain address.</source>
-        <translation>Введённый адрес "%1" не является правильным адресом Brain.</translation>
+        <source>The entered address "%1" is not a valid Putic address.</source>
+        <translation>Введённый адрес "%1" не является правильным адресом Putic.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -989,8 +989,8 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Brain Core</source>
-        <translation>Brain Core</translation>
+        <source>Putic Core</source>
+        <translation>Putic Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -1001,8 +1001,8 @@ Address: %4
         <translation>(%1-бит)</translation>
     </message>
     <message>
-        <source>About Brain Core</source>
-        <translation>О Brain Core</translation>
+        <source>About Putic Core</source>
+        <translation>О Putic Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1048,16 +1048,16 @@ Address: %4
         <translation>Добро пожаловать</translation>
     </message>
     <message>
-        <source>Welcome to Brain Core.</source>
-        <translation>Добро пожаловать в Brain Core.</translation>
+        <source>Welcome to Putic Core.</source>
+        <translation>Добро пожаловать в Putic Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Brain Core will store its data.</source>
-        <translation>Так как вы впервые запустили программу, вы можете выбрать, где Brain Core будет хранить данные.</translation>
+        <source>As this is the first time the program is launched, you can choose where Putic Core will store its data.</source>
+        <translation>Так как вы впервые запустили программу, вы можете выбрать, где Putic Core будет хранить данные.</translation>
     </message>
     <message>
-        <source>Brain Core will download and store a copy of the Brain block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Brain Core скачает и сохранит копию цепочки блоков. Как минимум %1ГБ данных будет храниться в этом каталоге и размер данных будет со временем расти. В этом же каталоге будет сохранён кошелёк.</translation>
+        <source>Putic Core will download and store a copy of the Putic block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Putic Core скачает и сохранит копию цепочки блоков. Как минимум %1ГБ данных будет храниться в этом каталоге и размер данных будет со временем расти. В этом же каталоге будет сохранён кошелёк.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1068,8 +1068,8 @@ Address: %4
         <translation>Использовать другой каталог данных:</translation>
     </message>
     <message>
-        <source>Brain Core</source>
-        <translation>Brain Core</translation>
+        <source>Putic Core</source>
+        <translation>Putic Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1122,12 +1122,12 @@ Address: %4
         <translation>&amp;Главная</translation>
     </message>
     <message>
-        <source>Automatically start Brain after logging in to the system.</source>
-        <translation>Автоматически запускать Brain после входа в систему.</translation>
+        <source>Automatically start Putic after logging in to the system.</source>
+        <translation>Автоматически запускать Putic после входа в систему.</translation>
     </message>
     <message>
-        <source>&amp;Start Brain on system login</source>
-        <translation>&amp;Запускать Brain при входе в систему</translation>
+        <source>&amp;Start Putic on system login</source>
+        <translation>&amp;Запускать Putic при входе в систему</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1154,8 +1154,8 @@ Address: %4
         <translation>Это пороговое значение, при достижении которого автоматическое перемешивание отключается.</translation>
     </message>
     <message>
-        <source>Amount of Brain to keep anonymized</source>
-        <translation>Сумма постоянно анонимизированных Brain</translation>
+        <source>Amount of Putic to keep anonymized</source>
+        <translation>Сумма постоянно анонимизированных Putic</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1174,8 +1174,8 @@ Address: %4
         <translation>Принимать входящие подключения</translation>
     </message>
     <message>
-        <source>Connect to the Brain network through a SOCKS5 proxy.</source>
-        <translation>Подключаться к сети Brain через прокси SOCKS5.</translation>
+        <source>Connect to the Putic network through a SOCKS5 proxy.</source>
+        <translation>Подключаться к сети Putic через прокси SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1206,8 +1206,8 @@ Address: %4
         <translation>&amp;Сеть</translation>
     </message>
     <message>
-        <source>Automatically open the Brain client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть порт для клиента Brain на роутере. Работает только в том случае, если Ваш роутер поддерживает UPnP и данная функция включена.</translation>
+        <source>Automatically open the Putic client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть порт для клиента Putic на роутере. Работает только в том случае, если Ваш роутер поддерживает UPnP и данная функция включена.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1258,14 +1258,14 @@ Address: %4
         <translation>&amp;Язык интерфейса:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Brain.</source>
-        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска Brain.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Putic.</source>
+        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска Putic.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/brain/</source>
+https://www.transifex.com/projects/p/putic/</source>
         <translation>Нет Вашего языка или перевод неполон? Помогите нам сделать перевод лучше:
-https://www.transifex.com/projects/p/brain/</translation>
+https://www.transifex.com/projects/p/putic/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1347,8 +1347,8 @@ https://www.transifex.com/projects/p/brain/</translation>
         <translation>Форма</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Brain network after a connection is established, but this process has not completed yet.</source>
-        <translation>Отображаемая информация может быть устаревшей. Ваш кошелёк автоматически синхронизируется с сетью Brain после подключения, но этот процесс пока не завершён.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Putic network after a connection is established, but this process has not completed yet.</source>
+        <translation>Отображаемая информация может быть устаревшей. Ваш кошелёк автоматически синхронизируется с сетью Putic после подключения, но этот процесс пока не завершён.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1431,8 +1431,8 @@ https://www.transifex.com/projects/p/brain/</translation>
         <translation>Сумма и раунды:</translation>
     </message>
     <message>
-        <source>0 BRAIN / 0 Rounds</source>
-        <translation>0 BRAIN / 0 раундов</translation>
+        <source>0 PUTIC / 0 Rounds</source>
+        <translation>0 PUTIC / 0 раундов</translation>
     </message>
     <message>
         <source>Submitted Denom:</source>
@@ -1568,8 +1568,8 @@ https://www.transifex.com/projects/p/brain/</translation>
         <translation>Ошибка запроса платежа</translation>
     </message>
     <message>
-        <source>Cannot start brain: click-to-pay handler</source>
-        <translation>Не удаётся запустить обработчик brain: click-to-pay</translation>
+        <source>Cannot start putic: click-to-pay handler</source>
+        <translation>Не удаётся запустить обработчик putic: click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1588,8 +1588,8 @@ https://www.transifex.com/projects/p/brain/</translation>
         <translation>Неверный адрес платежа %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Brain address or malformed URI parameters.</source>
-        <translation>Не удалось разобрать URI! Возможно указан некорректный адрес Brain либо параметры URI сформированы неверно.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Putic address or malformed URI parameters.</source>
+        <translation>Не удалось разобрать URI! Возможно указан некорректный адрес Putic либо параметры URI сформированы неверно.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1674,8 +1674,8 @@ https://www.transifex.com/projects/p/brain/</translation>
         <translation>Сумма</translation>
     </message>
     <message>
-        <source>Enter a Brain address (e.g. %1)</source>
-        <translation>Введите адрес Brain (например, %1)</translation>
+        <source>Enter a Putic address (e.g. %1)</source>
+        <translation>Введите адрес Putic (например, %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1764,8 +1764,8 @@ https://www.transifex.com/projects/p/brain/</translation>
         <translation>Число подключений</translation>
     </message>
     <message>
-        <source>Open the Brain debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть отладочный лог-файл Brain из текущего каталога данных. Для больших лог-файлов эта операция может занять несколько секунд.</translation>
+        <source>Open the Putic debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть отладочный лог-файл Putic из текущего каталога данных. Для больших лог-файлов эта операция может занять несколько секунд.</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -1972,8 +1972,8 @@ https://www.transifex.com/projects/p/brain/</translation>
         <translation>Выход:</translation>
     </message>
     <message>
-        <source>Welcome to the Brain RPC console.</source>
-        <translation>Добро пожаловать в RPC-консоль Brain.</translation>
+        <source>Welcome to the Putic RPC console.</source>
+        <translation>Добро пожаловать в RPC-консоль Putic.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2035,8 +2035,8 @@ https://www.transifex.com/projects/p/brain/</translation>
         <translation>&amp;Повторно использовать существующий адрес получения (не рекомендуется)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Brain network.</source>
-        <translation>Необязательное сообщение для запроса платежа, которое будет показано при открытии запроса. Обратите внимание: сообщение не будет отправлено вместе с платежом через сеть Brain.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Putic network.</source>
+        <translation>Необязательное сообщение для запроса платежа, которое будет показано при открытии запроса. Обратите внимание: сообщение не будет отправлено вместе с платежом через сеть Putic.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2047,8 +2047,8 @@ https://www.transifex.com/projects/p/brain/</translation>
         <translation>Необязательная метка для нового адреса получения.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Brain network.</source>
-        <translation>Необязательное сообщение для запроса платежа, которое будет показано при открытии запроса.&lt;br&gt;Обратите внимание: сообщение не будет отправлено вместе с платежом через сеть Brain.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Putic network.</source>
+        <translation>Необязательное сообщение для запроса платежа, которое будет показано при открытии запроса.&lt;br&gt;Обратите внимание: сообщение не будет отправлено вместе с платежом через сеть Putic.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2292,7 +2292,7 @@ https://www.transifex.com/projects/p/brain/</translation>
         <translation>Если ручная комиссия  установлена в 1000 duff, а транзакция по размеру только 250 байт, то плата "за килобайт" составит лишь 250 duff,&lt;br&gt;в то время как "итого минимум" будет равна 1000 duff. Для тразакций больше килобайта в любом случае идет расчет "за килобайт".</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for brain transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for putic transactions than the network can process.</source>
         <translation>Оплаты только минимальной комиссии должно быть достаточно во всех случаях, пока в блоках достаточно места.&lt;br&gt;Однако, будьте готовы к тому, что транзакция может вовсе не получить подтверждения,&lt;br&gt;если количество транзакций будет стабильно больше, чем сеть способна обработать.</translation>
     </message>
     <message>
@@ -2496,8 +2496,8 @@ https://www.transifex.com/projects/p/brain/</translation>
         <translation>Заплатить только минимальную комиссию %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid Brain address</source>
-        <translation>Внимание: неверный адрес Brain</translation>
+        <source>Warning: Invalid Putic address</source>
+        <translation>Внимание: неверный адрес Putic</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2519,8 +2519,8 @@ https://www.transifex.com/projects/p/brain/</translation>
         <translation>Полу&amp;чатель:</translation>
     </message>
     <message>
-        <source>The Brain address to send the payment to</source>
-        <translation>Адрес Brain для отправки на него монет</translation>
+        <source>The Putic address to send the payment to</source>
+        <translation>Адрес Putic для отправки на него монет</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2559,8 +2559,8 @@ https://www.transifex.com/projects/p/brain/</translation>
         <translation>Сообщение:</translation>
     </message>
     <message>
-        <source>A message that was attached to the brain: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Brain network.</source>
-        <translation>К brain: URI было прикреплено сообщение, которое будет сохранено вместе с транзакцией для вашего сведения. Обратите внимание: сообщение не будет отправлено через сеть Brain.</translation>
+        <source>A message that was attached to the putic: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Putic network.</source>
+        <translation>К putic: URI было прикреплено сообщение, которое будет сохранено вместе с транзакцией для вашего сведения. Обратите внимание: сообщение не будет отправлено через сеть Putic.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2586,8 +2586,8 @@ https://www.transifex.com/projects/p/brain/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Brain Core is shutting down...</source>
-        <translation>Brain Core выключается...</translation>
+        <source>Putic Core is shutting down...</source>
+        <translation>Putic Core выключается...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2609,8 +2609,8 @@ https://www.transifex.com/projects/p/brain/</translation>
         <translation>Вы можете подписывать сообщения своими адресами, чтобы доказать владение ими. Будьте осторожны, не подписывайте что-то неопределённое, так как фишинговые атаки могут обманным путём заставить вас подписать нежелательные сообщения. Подписывайте только те сообщения, с которыми вы согласны вплоть до мелочей.</translation>
     </message>
     <message>
-        <source>The Brain address to sign the message with</source>
-        <translation>Адрес Brain, которым Вы хотите подписать сообщение</translation>
+        <source>The Putic address to sign the message with</source>
+        <translation>Адрес Putic, которым Вы хотите подписать сообщение</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2641,8 +2641,8 @@ https://www.transifex.com/projects/p/brain/</translation>
         <translation>Скопировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Brain address</source>
-        <translation>Подписать сообщение, чтобы доказать владение этим адресом Brain</translation>
+        <source>Sign the message to prove you own this Putic address</source>
+        <translation>Подписать сообщение, чтобы доказать владение этим адресом Putic</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2665,12 +2665,12 @@ https://www.transifex.com/projects/p/brain/</translation>
         <translation>Введите ниже адрес для подписи, сообщение (убедитесь, что переводы строк, пробелы, табы и т.п. в точности скопированы) и подпись, чтобы проверить сообщение. Убедитесь, что не скопировали лишнего в подпись, по сравнению с самим подписываемым сообщением, чтобы не стать жертвой атаки "man-in-the-middle".</translation>
     </message>
     <message>
-        <source>The Brain address the message was signed with</source>
-        <translation>Адрес Brain, которым было подписано сообщение</translation>
+        <source>The Putic address the message was signed with</source>
+        <translation>Адрес Putic, которым было подписано сообщение</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Brain address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Brain</translation>
+        <source>Verify the message to ensure it was signed with the specified Putic address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Putic</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2736,8 +2736,8 @@ https://www.transifex.com/projects/p/brain/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Brain Core</source>
-        <translation>Brain Core</translation>
+        <source>Putic Core</source>
+        <translation>Putic Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2748,8 +2748,8 @@ https://www.transifex.com/projects/p/brain/</translation>
         <translation>Разработчики Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Brain Core developers</source>
-        <translation>Разработчики Brain Core</translation>
+        <source>The Putic Core developers</source>
+        <translation>Разработчики Putic Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3276,8 +3276,8 @@ https://www.transifex.com/projects/p/brain/</translation>
         <translation>Отправка</translation>
     </message>
     <message>
-        <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 BRAIN.</source>
-        <translation>InstantX пока что не поддерживает такие большие суммы. На данный момент транзакции ограничены суммами до %1 BRAIN.</translation>
+        <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 PUTIC.</source>
+        <translation>InstantX пока что не поддерживает такие большие суммы. На данный момент транзакции ограничены суммами до %1 PUTIC.</translation>
     </message>
 </context>
 <context>
@@ -3320,14 +3320,14 @@ https://www.transifex.com/projects/p/brain/</translation>
     </message>
 </context>
 <context>
-    <name>brain-core</name>
+    <name>putic-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Привязаться к указанному адресу и всегда прослушивать только его. Используйте [хост]:порт для IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Brain Core is probably already running.</source>
-        <translation>Не удалось установить блокировку на каталог данных %s. Возможно, Brain Core уже запущен.</translation>
+        <source>Cannot obtain a lock on data directory %s. Putic Core is probably already running.</source>
+        <translation>Не удалось установить блокировку на каталог данных %s. Возможно, Putic Core уже запущен.</translation>
     </message>
     <message>
         <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3382,15 +3382,15 @@ https://www.transifex.com/projects/p/brain/</translation>
         <translation>Это пре-релизная тестовая сборка - используйте на свой страх и риск - не используйте для добычи или торговых приложений</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Brain Core is probably already running.</source>
-        <translation>Не удалось привязаться к %s на этом компьютере. Возможно, Brain Core уже запущен.</translation>
+        <source>Unable to bind to %s on this computer. Putic Core is probably already running.</source>
+        <translation>Не удалось привязаться к %s на этом компьютере. Возможно, Putic Core уже запущен.</translation>
     </message>
     <message>
         <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
         <translation>Не удалось обнаружить достаточных для выполнения этой транзакции номиналов Darksend.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 BRAIN.</source>
+        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 PUTIC.</source>
         <translation>Не удалось обнаружить достаточных для выполнения этой транзакции неденоминированных средств, отличающихся от 1000DRK.</translation>
     </message>
     <message>
@@ -3614,8 +3614,8 @@ https://www.transifex.com/projects/p/brain/</translation>
         <translation>Удалить все трансакции из кошелька и при рестарте с помощью -rescan восстановить только те, которые есть в цепочке блоков</translation>
     </message>
     <message>
-        <source>Disable all Brain specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
-        <translation>Отключить всю функциональность, относящуюся к  Brain (Мастерноды, Darksend, InstantX, бюджеты) (0-1, по умолчанию: %u)</translation>
+        <source>Disable all Putic specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
+        <translation>Отключить всю функциональность, относящуюся к  Putic (Мастерноды, Darksend, InstantX, бюджеты) (0-1, по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3634,12 +3634,12 @@ https://www.transifex.com/projects/p/brain/</translation>
         <translation>Ошибка: Обнаружен неподдерживаемый аргумент -socks. Выбор версии SOCKS больше невозможен, поддерживаются только прокси версии SOCKS5.</translation>
     </message>
     <message>
-        <source>Fees (in BRAIN/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Комиссии (в BRAIN/Kb) меньше этого значения считаются нулевой для ретранслирования транзакции (по умолчанию: %s)</translation>
+        <source>Fees (in PUTIC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Комиссии (в PUTIC/Kb) меньше этого значения считаются нулевой для ретранслирования транзакции (по умолчанию: %s)</translation>
     </message>
     <message>
-        <source>Fees (in BRAIN/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Комиссии (в BRAIN/Kb) меньше этого значения считаются нулевой (для создания транзакции) (по умолчанию: %s)</translation>
+        <source>Fees (in PUTIC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Комиссии (в PUTIC/Kb) меньше этого значения считаются нулевой (для создания транзакции) (по умолчанию: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -3710,31 +3710,31 @@ https://www.transifex.com/projects/p/brain/</translation>
         <translation>Этот продукт включает ПО, разработанное проектом OpenSSL Project для использования в OpenSSL Toolkit &lt;https://www.openssl.org/&gt;, криптографическое ПО, написанное Eric Young и ПО для работы с UPnP, написанное Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use braind, or the -server option to brain-qt, you must set an rpcpassword in the configuration file:
+        <source>To use puticd, or the -server option to putic-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=brainrpc
+rpcuser=puticrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Brain Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "Putic Alert" admin@foo.com
 </source>
-        <translation>Для использования braind или опции -server с brain-qt, вы должны установить опцию rpcpassword в конфигурационном файле:
+        <translation>Для использования puticd или опции -server с putic-qt, вы должны установить опцию rpcpassword в конфигурационном файле:
 %s
 Рекомендуется использовать следующий случайный пароль:
-rpcuser=brainrpc
+rpcuser=puticrpc
 rpcpassword=%s
 (вам не нужно запоминать этот пароль)
 Имя и пароль ДОЛЖНЫ различаться.
 Если файл не существует, то создайте его и оставьте права на чтение только для владельца.
 Также рекомендуется включить alertnotify для оповещения о проблемах;
-Например: alertnotify=echo %%s | mail -s "Brain Alert" admin@foo.com
+Например: alertnotify=echo %%s | mail -s "Putic Alert" admin@foo.com
 </translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 BRAIN.</source>
+        <source>Unable to locate enough funds for this transaction that are not equal 1000 PUTIC.</source>
         <translation>Не удалось обнаружить достаточных для выполнения этой транзакции средств, отличающихся от 1000DRK.</translation>
     </message>
     <message>
@@ -3746,8 +3746,8 @@ rpcpassword=%s
         <translation>Внимание: установлено очень большое значение -paytxfee! Комиссия такого размера может быть уплачена при проведении одельной транзакции.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Brain Core will not work properly.</source>
-        <translation>Внимание: пожалуйста, убедитесь что дата и время на Вашем компьютере выставлены правильно! Brain Core не сможет работать корректно, если часы настроены неверно.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Putic Core will not work properly.</source>
+        <translation>Внимание: пожалуйста, убедитесь что дата и время на Вашем компьютере выставлены правильно! Putic Core не сможет работать корректно, если часы настроены неверно.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
@@ -3800,8 +3800,8 @@ rpcpassword=%s
         <translation>Copyright (C) 2009-%i The Bitcoin Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Brain Core Developers</source>
-        <translation>Copyright (C) 2014-%i The Brain Core Developers</translation>
+        <source>Copyright (C) 2014-%i The Putic Core Developers</source>
+        <translation>Copyright (C) 2014-%i The Putic Core Developers</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3832,8 +3832,8 @@ rpcpassword=%s
         <translation>Ошибка соединения с мастернодой.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Brain Core</source>
-        <translation>Ошибка загрузки wallet.dat: кошелёк требует более новой версии Brain Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Putic Core</source>
+        <translation>Ошибка загрузки wallet.dat: кошелёк требует более новой версии Putic Core</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3848,8 +3848,8 @@ rpcpassword=%s
         <translation>Ошибка: Обнаружен неподдерживаемый параметр -tor, используйте -onion вместо него.</translation>
     </message>
     <message>
-        <source>Fee (in BRAIN/kB) to add to transactions you send (default: %s)</source>
-        <translation>Комиссии (в BRAIN/kB), добавляемая к отправляемым Вами транзакциям (по умолчанию: %s)</translation>
+        <source>Fee (in PUTIC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Комиссии (в PUTIC/kB), добавляемая к отправляемым Вами транзакциям (по умолчанию: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -3904,8 +3904,8 @@ rpcpassword=%s
         <translation>Информация</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Brain Core is shutting down.</source>
-        <translation>Проверка на непротиворечивость закончилась неудачно. Brain Core выключается.</translation>
+        <source>Initialization sanity check failed. Putic Core is shutting down.</source>
+        <translation>Проверка на непротиворечивость закончилась неудачно. Putic Core выключается.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4156,8 +4156,8 @@ rpcpassword=%s
         <translation>Использовать UPnP для проброса порта (по умолчанию: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Brain Core to complete</source>
-        <translation>Необходимо перезаписать кошелёк: перезапустите Brain Core для завершения операции</translation>
+        <source>Wallet needed to be rewritten: restart Putic Core to complete</source>
+        <translation>Необходимо перезаписать кошелёк: перезапустите Putic Core для завершения операции</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
@@ -4216,8 +4216,8 @@ rpcpassword=%s
         <translation>Ключ KeePassHttp для зашифрованной коммуникации с KeePass</translation>
     </message>
     <message>
-        <source>Keep N BRAIN anonymized (default: %u)</source>
-        <translation>Держать N BRAIN анонимизированными (по умолчанию: %u)</translation>
+        <source>Keep N PUTIC anonymized (default: %u)</source>
+        <translation>Держать N PUTIC анонимизированными (по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>

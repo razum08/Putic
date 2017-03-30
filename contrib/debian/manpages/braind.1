@@ -1,19 +1,19 @@
-.TH BRAIND "1" "January 2011" "braind 3.19"
+.TH PUTICD "1" "January 2011" "puticd 3.19"
 .SH NAME
-Brain \- peer-to-peer network based digital currency
+Putic \- peer-to-peer network based digital currency
 .SH SYNOPSIS
-braind [options] <command> [params]
+puticd [options] <command> [params]
 .TP
-braind [options] help <command> \- Get help for a command
+puticd [options] help <command> \- Get help for a command
 .SH DESCRIPTION
-This  manual page documents the braind program. Brain is a peer-to-peer digital currency. Peer-to-peer (P2P) means that there is no central authority to issue new money or keep track of transactions. Instead, these tasks are managed collectively by the nodes of the network. Advantages:
+This  manual page documents the puticd program. Putic is a peer-to-peer digital currency. Peer-to-peer (P2P) means that there is no central authority to issue new money or keep track of transactions. Instead, these tasks are managed collectively by the nodes of the network. Advantages:
 
-Brain can be sent easily through the Internet, without having to trust middlemen. Transactions are designed to be irreversible. Be safe from instability caused by fractional reserve banking and central banks. The limited inflation of the Brain system’s money supply is distributed evenly (by CPU power) throughout the network, not monopolized by banks.
+Putic can be sent easily through the Internet, without having to trust middlemen. Transactions are designed to be irreversible. Be safe from instability caused by fractional reserve banking and central banks. The limited inflation of the Putic system’s money supply is distributed evenly (by CPU power) throughout the network, not monopolized by banks.
 
 .SH OPTIONS
 .TP
 \fB\-conf=\fR<file>
-Specify configuration file (default: brain.conf)
+Specify configuration file (default: putic.conf)
 .TP
 \fB\-gen\fR
 Generate coins
@@ -84,14 +84,14 @@ This help message
 \fBbackupwallet 'destination'\fR
 Safely copies *wallet.dat* to 'destination', which can be a directory or a path with filename.
 .TP
-\fBgetaccount 'brainaddress'\fR
+\fBgetaccount 'puticaddress'\fR
 Returns the account associated with the given address.
 .TP
-\fBsetaccount 'brainaddress' ['account']\fR
+\fBsetaccount 'puticaddress' ['account']\fR
 Sets the ['account'] associated with the given address. ['account'] may be omitted to remove an address from ['account'].
 .TP
 \fBgetaccountaddress 'account'\fR
-Returns a new brain address for 'account'.
+Returns a new putic address for 'account'.
 .TP
 \fBgetaddressesbyaccount 'account'\fR
 Returns the list of addresses associated with the given 'account'.
@@ -112,7 +112,7 @@ Returns the number of connections to other nodes.
 Returns the proof-of-work difficulty as a multiple of the minimum difficulty.
 .TP
 \fBgetgenerate\fR
-Returns boolean true if server is trying to generate BRAIN, false otherwise.
+Returns boolean true if server is trying to generate PUTIC, false otherwise.
 .TP
 \fBsetgenerate 'generate' ['genproclimit']\fR
 Generation is limited to ['genproclimit'] processors, \-1 is unlimited.
@@ -124,13 +124,13 @@ Returns a recent hashes per second performance measurement while generating.
 Returns an object containing server information.
 .TP
 \fBgetnewaddress 'account'\fR
-Returns a new brain address for receiving payments. If 'account' is specified (recommended), it is added to the address book so payments received with the address will be credited to 'account'.
+Returns a new putic address for receiving payments. If 'account' is specified (recommended), it is added to the address book so payments received with the address will be credited to 'account'.
 .TP
 \fBgetreceivedbyaccount 'account' ['minconf=1']\fR
 Returns the total amount received by addresses associated with 'account' in transactions with at least ['minconf'] confirmations.
 .TP
-\fBgetreceivedbyaddress 'brainaddress' ['minconf=1']\fR
-Returns the total amount received by 'brainaddress' in transactions with at least ['minconf'] confirmations.
+\fBgetreceivedbyaddress 'puticaddress' ['minconf=1']\fR
+Returns the total amount received by 'puticaddress' in transactions with at least ['minconf'] confirmations.
 .TP
 \fBgettransaction 'txid'\fR
 Returns information about a specific transaction, given hexadecimal transaction ID.
@@ -148,7 +148,7 @@ List commands, or get help for a command.
 .TP
 \fBlistaccounts ['minconf=1']\fR
 List accounts and their current balances.
-     *note: requires brain 0.3.20 or later.
+     *note: requires putic 0.3.20 or later.
 .TP
 \fBlistreceivedbyaccount ['minconf=1'] ['includeempty=false']\fR
 ['minconf'] is the minimum number of confirmations before payments are included. ['includeempty'] whether to include addresses that haven't received any payments. Returns an array of objects containing:
@@ -177,31 +177,31 @@ Returns a list of the last ['count'] transactions for 'account' \- for all accou
     "message"       : message associated with transaction (only for send).
     "to"            : message-to associated with transaction (only for send).
 
-    *note: requires brain 0.3.20 or later.
+    *note: requires putic 0.3.20 or later.
 .TP
 \fBmove <'fromaccount'> <'toaccount'> <'amount'> ['minconf=1'] ['comment']\fR
 Moves funds between accounts.
 .TP
-\fBsendfrom* <'account'> <'brainaddress'> <'amount'> ['minconf=1'] ['comment'] ['comment-to']\fR
-Sends amount from account's balance to 'brainaddress'. This method will fail if there is less than amount BRAIN with ['minconf'] confirmations in the account's balance (unless account is the empty-string-named default account; it behaves like the *sendtoaddress* method). Returns transaction ID on success.
+\fBsendfrom* <'account'> <'puticaddress'> <'amount'> ['minconf=1'] ['comment'] ['comment-to']\fR
+Sends amount from account's balance to 'puticaddress'. This method will fail if there is less than amount PUTIC with ['minconf'] confirmations in the account's balance (unless account is the empty-string-named default account; it behaves like the *sendtoaddress* method). Returns transaction ID on success.
 .TP
-\fBsendtoaddress 'brainaddress' 'amount' ['comment'] ['comment-to']\fR
-Sends amount from the server's available balance to 'brainaddress'. amount is a real and is rounded to the nearest 0.01. Returns transaction id on success.
+\fBsendtoaddress 'puticaddress' 'amount' ['comment'] ['comment-to']\fR
+Sends amount from the server's available balance to 'puticaddress'. amount is a real and is rounded to the nearest 0.01. Returns transaction id on success.
 .TP
 \fBstop\fR
-Stops the brain server.
+Stops the putic server.
 .TP
-\fBvalidateaddress 'brainaddress'\fR
-Checks that 'brainaddress' looks like a proper Brain address. Returns an object containing:
+\fBvalidateaddress 'puticaddress'\fR
+Checks that 'puticaddress' looks like a proper Putic address. Returns an object containing:
 
     "isvalid" : true or false.
     "ismine"  : true if the address is in the server's wallet.
-    "address" : brainaddress.
+    "address" : puticaddress.
 
     *note: ismine and address are only returned if the address is valid.
 
 .SH "SEE ALSO"
-brain.conf(5)
+putic.conf(5)
 .SH AUTHOR
 This manual page was written by Micah Anderson <micah@debian.org> for the Debian system (but may be used by others). Permission is granted to copy, distribute and/or modify this document under the terms of the GNU General Public License, Version 3 or any later version published by the Free Software Foundation.
 

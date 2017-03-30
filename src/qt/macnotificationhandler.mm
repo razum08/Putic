@@ -13,7 +13,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"io.axelxod.Brain-Qt";
+        return @"io.puticcoin.Putic-Qt";
     } else {
         return [self __bundleIdentifier];
     }

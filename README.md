@@ -1,29 +1,29 @@
-Brain Core staging tree 1.3.2
+Putic Core staging tree 1.3.2
 ===============================
 
-http://brain.ddns.net
+http://putic.ddns.net
 
 Copyright (c) 2009-2016 Bitcoin Core Developers
 
 
 
-What is Brain?
+What is Putic?
 ----------------
 
-Brain is an experimental new digital currency that enables anonymous, instant
-payments to anyone, anywhere in the world. Brain uses peer-to-peer technology
+Putic is an experimental new digital currency that enables anonymous, instant
+payments to anyone, anywhere in the world. Putic uses peer-to-peer technology
 to operate with no central authority: managing transactions and issuing money
-are carried out collectively by the network. Brain Core is the name of open
+are carried out collectively by the network. Putic Core is the name of open
 source software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Brain Core software, see http://brain.ddns.net/
+the Putic Core software, see http://putic.ddns.net/
 
 
 License
 -------
 
-Brain Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+Putic Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see http://opensource.org/licenses/MIT.
 
 Development process
@@ -32,7 +32,7 @@ Development process
 Developers work in their own trees, then submit pull requests when they think
 their feature or bug fix is ready.
 
-If it is a simple/trivial/non-controversial change, then one of the Brain
+If it is a simple/trivial/non-controversial change, then one of the Putic
 development team members simply pulls it.
 
 If it is a *more complicated or potentially controversial* change, then the patch
@@ -45,6 +45,6 @@ match the project's coding conventions (see [doc/coding.md](doc/coding.md)) or a
 controversial.
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/axelxod/braincoin/tags) are created
-regularly to indicate new official, stable release versions of Brain. ***TODO***
+completely stable. [Tags](https://github.com/puticcoin/putic/tags) are created
+regularly to indicate new official, stable release versions of Putic. ***TODO***
 
