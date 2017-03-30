@@ -46,7 +46,7 @@ static const int MAX_URI_LENGTH = 255;
 #define SPINNER_FRAMES 35
 
 #define QAPP_ORG_NAME "Putic"
-#define QAPP_ORG_DOMAIN "puticcoin.io"
+#define QAPP_ORG_DOMAIN "putinclassic.io"
 #define QAPP_APP_NAME_DEFAULT "Putic-Qt"
 #define QAPP_APP_NAME_TESTNET "Putic-Qt-testnet"
 

@@ -37,8 +37,8 @@ CActiveMasternode activeMasternode;
 
 /* *** BEGIN DARKSEND MAGIC - PUTIC **********
     Copyright (c) 2014-2015, Putic Developers
-        eduffield - evan@puticcoin.io
-        udjinm6   - udjinm6@puticcoin.io
+        eduffield - evan@putinclassic.io
+        udjinm6   - udjinm6@putinclassic.io
 */
 
 void CDarksendPool::ProcessMessageDarksend(CNode* pfrom, std::string& strCommand, CDataStream& vRecv)
@@ -2057,7 +2057,7 @@ bool CDarkSendSigner::IsVinAssociatedWithPubkey(CTxIn& vin, CPubKey& pubkey){
     uint256 hash;
     if(GetTransaction(vin.prevout.hash, txVin, hash, true)){
         BOOST_FOREACH(CTxOut out, txVin.vout){
-            if(out.nValue == 100000*COIN){
+            if(out.nValue == 840000*COIN){
                 if(out.scriptPubKey == payee2) return true;
             }
         }

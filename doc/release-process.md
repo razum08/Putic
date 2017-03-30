@@ -2,7 +2,7 @@ Release Process
 ====================
 
 * update translations (ping wumpus, Diapolo or tcatm on IRC)
-* see https://github.com/puticcoin/putic/blob/master/doc/translation_process.md#syncing-with-transifex
+* see https://github.com/putinclassic/Putic/blob/master/doc/translation_process.md#syncing-with-transifex
 
 * * *
 
@@ -58,7 +58,7 @@ Release Process
 
   Only missing files will be fetched, so this is safe to re-run for each build.
 
-###Build Putic Core for Linux, Windows, and OS X:
+###Build Putin Classic for Linux, Windows, and OS X:
 
 	./bin/gbuild --commit putic=v${VERSION} ../putic/contrib/gitian-descriptors/gitian-linux.yml
 	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../putic/contrib/gitian-descriptors/gitian-linux.yml
@@ -134,9 +134,9 @@ rm SHA256SUMS
 - Upload zips and installers, as well as `SHA256SUMS.asc` from last step, to the bitcoin.org server
   into `/var/www/bin/bitcoin-core-${VERSION}`
 
-- Update puticcoin.io version ***TODO***
+- Update putinclassic.io version ***TODO***
 
-  - First, check to see if the puticcoin.io maintainers have prepared a
+  - First, check to see if the putinclassic.io maintainers have prepared a
     release: https://github.com/bitcoin/bitcoin.org/labels/Releases
 
       - If they have, it will have previously failed their Travis CI
@@ -155,11 +155,11 @@ rm SHA256SUMS
 
   - Putic-development mailing list
 
-  - Update title of #puticcoin on Freenode IRC
+  - Update title of #putinclassic on Freenode IRC
 
-  - Optionally reddit /r/Puticcoin, ... but this will usually sort out itself
+  - Optionally reddit /r/Putinclassic, ... but this will usually sort out itself
 
-- Notify Flare (?) ***TODO*** so that he can start building [https://launchpad.net/~puticcoin/+archive/ubuntu/putic](the PPAs) ***TODO***
+- Notify Flare (?) ***TODO*** so that he can start building [https://launchpad.net/~putinclassic/+archive/ubuntu/putic](the PPAs) ***TODO***
 
 - Add release notes for the new version to the directory `doc/release-notes` in git master
 

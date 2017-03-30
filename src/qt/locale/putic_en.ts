@@ -296,8 +296,8 @@
     <message>
         <location filename="../bitcoingui.cpp" line="+108"/>
         <location line="+752"/>
-        <source>Putic Core</source>
-        <translation>Putic Core</translation>
+        <source>Putin Classic</source>
+        <translation>Putin Classic</translation>
     </message>
     <message>
         <location line="-743"/>
@@ -361,13 +361,13 @@
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;About Putic Core</source>
-        <translation>&amp;About Putic Core</translation>
+        <source>&amp;About Putin Classic</source>
+        <translation>&amp;About Putin Classic</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about Putic Core</source>
-        <translation>Show information about Putic Core</translation>
+        <source>Show information about Putin Classic</source>
+        <translation>Show information about Putin Classic</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -572,8 +572,8 @@
     </message>
     <message>
         <location line="+196"/>
-        <source>Putic Core client</source>
-        <translation>Putic Core client</translation>
+        <source>Putin Classic client</source>
+        <translation>Putin Classic client</translation>
     </message>
     <message numerus="yes">
         <location line="+182"/>
@@ -587,8 +587,8 @@
     </message>
     <message>
         <location line="-407"/>
-        <source>Show the Putic Core help message to get a list with possible Putic command-line options</source>
-        <translation>Show the Putic Core help message to get a list with possible Putic command-line options</translation>
+        <source>Show the Putin Classic help message to get a list with possible Putic command-line options</source>
+        <translation>Show the Putin Classic help message to get a list with possible Putic command-line options</translation>
     </message>
     <message>
         <location line="+36"/>
@@ -1246,8 +1246,8 @@ Address: %4
     <name>HelpMessageDialog</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+32"/>
-        <source>Putic Core</source>
-        <translation>Putic Core</translation>
+        <source>Putin Classic</source>
+        <translation>Putin Classic</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1262,8 +1262,8 @@ Address: %4
     </message>
     <message>
         <location line="+5"/>
-        <source>About Putic Core</source>
-        <translation>About Putic Core</translation>
+        <source>About Putin Classic</source>
+        <translation>About Putin Classic</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1320,18 +1320,18 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to Putic Core.</source>
-        <translation>Welcome to Putic Core.</translation>
+        <source>Welcome to Putin Classic.</source>
+        <translation>Welcome to Putin Classic.</translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where Putic Core will store its data.</source>
-        <translation>As this is the first time the program is launched, you can choose where Putic Core will store its data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Putin Classic will store its data.</source>
+        <translation>As this is the first time the program is launched, you can choose where Putin Classic will store its data.</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Putic Core will download and store a copy of the Putic block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Putic Core will download and store a copy of the Putic block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
+        <source>Putin Classic will download and store a copy of the Putic block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Putin Classic will download and store a copy of the Putic block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1345,8 +1345,8 @@ Address: %4
     </message>
     <message>
         <location filename="../intro.cpp" line="+82"/>
-        <source>Putic Core</source>
-        <translation>Putic Core</translation>
+        <source>Putin Classic</source>
+        <translation>Putin Classic</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3303,8 +3303,8 @@ https://www.transifex.com/projects/p/putic/</translation>
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+43"/>
-        <source>Putic Core is shutting down...</source>
-        <translation>Putic Core is shutting down...</translation>
+        <source>Putin Classic is shutting down...</source>
+        <translation>Putin Classic is shutting down...</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3498,8 +3498,8 @@ https://www.transifex.com/projects/p/putic/</translation>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+36"/>
-        <source>Putic Core</source>
-        <translation>Putic Core</translation>
+        <source>Putin Classic</source>
+        <translation>Putin Classic</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3513,8 +3513,8 @@ https://www.transifex.com/projects/p/putic/</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>The Putic Core developers</source>
-        <translation>The Putic Core developers</translation>
+        <source>The Putin Classic developers</source>
+        <translation>The Putin Classic developers</translation>
     </message>
     <message>
         <location filename="../networkstyle.cpp" line="+19"/>
@@ -4250,8 +4250,8 @@ https://www.transifex.com/projects/p/putic/</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Cannot obtain a lock on data directory %s. Putic Core is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s. Putic Core is probably already running.</translation>
+        <source>Cannot obtain a lock on data directory %s. Putin Classic is probably already running.</source>
+        <translation>Cannot obtain a lock on data directory %s. Putin Classic is probably already running.</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -4320,8 +4320,8 @@ https://www.transifex.com/projects/p/putic/</translation>
     </message>
     <message>
         <location line="+20"/>
-        <source>Unable to bind to %s on this computer. Putic Core is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. Putic Core is probably already running.</translation>
+        <source>Unable to bind to %s on this computer. Putin Classic is probably already running.</source>
+        <translation>Unable to bind to %s on this computer. Putin Classic is probably already running.</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -4770,8 +4770,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Putic Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+6"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Putic Core will not work properly.</source>
-        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Putic Core will not work properly.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Putin Classic will not work properly.</source>
+        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Putin Classic will not work properly.</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -4785,8 +4785,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Putic Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+6"/>
-        <source>(6390 could be used only on mainnet)</source>
-        <translation>(6390 could be used only on mainnet)</translation>
+        <source>(2290 could be used only on mainnet)</source>
+        <translation>(2290 could be used only on mainnet)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4837,8 +4837,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Putic Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2014-%i The Putic Core Developers</source>
-        <translation>Copyright (C) 2014-%i The Putic Core Developers</translation>
+        <source>Copyright (C) 2014-%i The Putin Classic Developers</source>
+        <translation>Copyright (C) 2014-%i The Putin Classic Developers</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -4877,8 +4877,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Putic Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+6"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Putic Core</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of Putic Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Putin Classic</source>
+        <translation>Error loading wallet.dat: Wallet requires newer version of Putin Classic</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -4967,8 +4967,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Putic Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+1"/>
-        <source>Initialization sanity check failed. Putic Core is shutting down.</source>
-        <translation>Initialization sanity check failed. Putic Core is shutting down.</translation>
+        <source>Initialization sanity check failed. Putin Classic is shutting down.</source>
+        <translation>Initialization sanity check failed. Putin Classic is shutting down.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5282,8 +5282,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Putic Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+9"/>
-        <source>Wallet needed to be rewritten: restart Putic Core to complete</source>
-        <translation>Wallet needed to be rewritten: restart Putic Core to complete</translation>
+        <source>Wallet needed to be rewritten: restart Putin Classic to complete</source>
+        <translation>Wallet needed to be rewritten: restart Putin Classic to complete</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -5307,8 +5307,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Putic Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="-88"/>
-        <source>(must be 6390 for mainnet)</source>
-        <translation>(must be 6390 for mainnet)</translation>
+        <source>(must be 2290 for mainnet)</source>
+        <translation>(must be 2290 for mainnet)</translation>
     </message>
     <message>
         <location line="+13"/>

@@ -203,7 +203,7 @@ void CMasternode::Check(bool forceCheck)
     if(!unitTest){
         CValidationState state;
         CMutableTransaction tx = CMutableTransaction();
-        CTxOut vout = CTxOut(99999.99*COIN, darkSendPool.collateralPubKey);
+        CTxOut vout = CTxOut(839900.99*COIN, darkSendPool.collateralPubKey);
         tx.vin.push_back(vin);
         tx.vout.push_back(vout);
 
@@ -392,8 +392,8 @@ bool CMasternodeBroadcast::CheckAndUpdate(int& nDos)
     }
 
     if(Params().NetworkID() == CBaseChainParams::MAIN) {
-        if(addr.GetPort() != 6390) return false;
-    } else if(addr.GetPort() == 6390) return false;
+        if(addr.GetPort() != 2290) return false;
+    } else if(addr.GetPort() == 2290) return false;
 
     //search existing Masternode list, this is where we update existing Masternodes with new mnb broadcasts
     CMasternode* pmn = mnodeman.Find(vin);
@@ -435,7 +435,7 @@ bool CMasternodeBroadcast::CheckInputsAndAdd(int& nDoS)
 
     CValidationState state;
     CMutableTransaction tx = CMutableTransaction();
-    CTxOut vout = CTxOut(99999.99*COIN, darkSendPool.collateralPubKey);
+    CTxOut vout = CTxOut(839900.99*COIN, darkSendPool.collateralPubKey);
     tx.vin.push_back(vin);
     tx.vout.push_back(vout);
 

@@ -13,7 +13,7 @@
  * for both puticd and putic-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("Putic Core");
+const std::string CLIENT_NAME("Putin Classic");
 
 /**
  * Client version number

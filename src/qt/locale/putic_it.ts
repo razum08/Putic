@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Putic Core</source>
-        <translation>Putic Core</translation>
+        <source>Putin Classic</source>
+        <translation>Putin Classic</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -283,12 +283,12 @@
         <translation>Chiudi applicazione</translation>
     </message>
     <message>
-        <source>&amp;About Putic Core</source>
-        <translation>&amp;Su Putic Core</translation>
+        <source>&amp;About Putin Classic</source>
+        <translation>&amp;Su Putin Classic</translation>
     </message>
     <message>
-        <source>Show information about Putic Core</source>
-        <translation>Mostra la informazione su Putic Core</translation>
+        <source>Show information about Putin Classic</source>
+        <translation>Mostra la informazione su Putin Classic</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -443,16 +443,16 @@
         <translation>Opzioni riga di &amp;comando</translation>
     </message>
     <message>
-        <source>Putic Core client</source>
-        <translation>Cliente Putic Core</translation>
+        <source>Putin Classic client</source>
+        <translation>Cliente Putin Classic</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
         <translation><numerusform>Processato %n blocco della cronologia transazioni.</numerusform><numerusform>Processati %n blocchi della cronologia transazioni.</numerusform></translation>
     </message>
     <message>
-        <source>Show the Putic Core help message to get a list with possible Putic command-line options</source>
-        <translation>Mostra il messaggio di aiuto di Putic Core per ottenere una lista con le possibili opzioni di linea di comando di Putic</translation>
+        <source>Show the Putin Classic help message to get a list with possible Putic command-line options</source>
+        <translation>Mostra il messaggio di aiuto di Putin Classic per ottenere una lista con le possibili opzioni di linea di comando di Putic</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -958,16 +958,16 @@ Indirizzo: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Putic Core</source>
-        <translation>Putic Core</translation>
+        <source>Putin Classic</source>
+        <translation>Putin Classic</translation>
     </message>
     <message>
         <source>version</source>
         <translation>versione</translation>
     </message>
     <message>
-        <source>About Putic Core</source>
-        <translation>Su Putic Core</translation>
+        <source>About Putin Classic</source>
+        <translation>Su Putin Classic</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1013,16 +1013,16 @@ Indirizzo: %4
         <translation>Benvenuto</translation>
     </message>
     <message>
-        <source>Welcome to Putic Core.</source>
-        <translation>Benvenuto in Putic Core</translation>
+        <source>Welcome to Putin Classic.</source>
+        <translation>Benvenuto in Putin Classic</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Putic Core will store its data.</source>
-        <translation>Essendo la prima volta nella quale il programma viene lanciato, puoi scegliere dove Putic Core memorizzerà i propri dati.</translation>
+        <source>As this is the first time the program is launched, you can choose where Putin Classic will store its data.</source>
+        <translation>Essendo la prima volta nella quale il programma viene lanciato, puoi scegliere dove Putin Classic memorizzerà i propri dati.</translation>
     </message>
     <message>
-        <source>Putic Core will download and store a copy of the Putic block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Putic Core scaricherà e salverà una copia della blocco catena. Almeno %1GB di dati sarà immagazzinato in questa cartella e aumenterà col tempo. Anche il portafoglio sarà conservato in questa cartella.</translation>
+        <source>Putin Classic will download and store a copy of the Putic block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Putin Classic scaricherà e salverà una copia della blocco catena. Almeno %1GB di dati sarà immagazzinato in questa cartella e aumenterà col tempo. Anche il portafoglio sarà conservato in questa cartella.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1033,8 +1033,8 @@ Indirizzo: %4
         <translation>Usa una cartella dati personalizzata:</translation>
     </message>
     <message>
-        <source>Putic Core</source>
-        <translation>Putic Core</translation>
+        <source>Putin Classic</source>
+        <translation>Putin Classic</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1088,7 +1088,7 @@ Indirizzo: %4
     </message>
     <message>
         <source>Automatically start Putic after logging in to the system.</source>
-        <translation>Esegui automaticamente Putic Core all'avvio del sistema.</translation>
+        <translation>Esegui automaticamente Putin Classic all'avvio del sistema.</translation>
     </message>
     <message>
         <source>&amp;Start Putic on system login</source>
@@ -2428,8 +2428,8 @@ Più URL vengono separati da una barra verticale |.</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Putic Core is shutting down...</source>
-        <translation>Putic Core si sta chiudendo...</translation>
+        <source>Putin Classic is shutting down...</source>
+        <translation>Putin Classic si sta chiudendo...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2578,8 +2578,8 @@ Più URL vengono separati da una barra verticale |.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Putic Core</source>
-        <translation>Putic Core</translation>
+        <source>Putin Classic</source>
+        <translation>Putin Classic</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2590,8 +2590,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Gli sviluppatori di Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Putic Core developers</source>
-        <translation>Gli sviluppatori di Putic Core</translation>
+        <source>The Putin Classic developers</source>
+        <translation>Gli sviluppatori di Putin Classic</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3164,8 +3164,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Associa all'indirizzo indicato e resta permanentemente in ascolto su questo. Usa la notazione [host]:porta per l'IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Putic Core is probably already running.</source>
-        <translation>Impossibile ottenere un blocco sulla data directory %s. Putic Core è probabilmente già in esecuzione.</translation>
+        <source>Cannot obtain a lock on data directory %s. Putin Classic is probably already running.</source>
+        <translation>Impossibile ottenere un blocco sulla data directory %s. Putin Classic è probabilmente già in esecuzione.</translation>
     </message>
     <message>
         <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3220,8 +3220,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Questa versione è una compilazione pre-rilascio - usala a tuo rischio - non utilizzarla per la generazione o per applicazioni di commercio</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Putic Core is probably already running.</source>
-        <translation>Incapace di legare al %s su questo computer. Putic Core è probabilmente già funzionato.</translation>
+        <source>Unable to bind to %s on this computer. Putin Classic is probably already running.</source>
+        <translation>Incapace di legare al %s su questo computer. Putin Classic è probabilmente già funzionato.</translation>
     </message>
     <message>
         <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
@@ -3468,8 +3468,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Errore di connessione al Masternode</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Putic Core</source>
-        <translation>Errore caricando il wallet.dat: il Pertafoglio ha bisogno di una versione di Putic Core piú recente.</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Putin Classic</source>
+        <translation>Errore caricando il wallet.dat: il Pertafoglio ha bisogno di una versione di Putin Classic piú recente.</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3508,8 +3508,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Informazioni</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Putic Core is shutting down.</source>
-        <translation>Controllo di inizializzazione sanity fallito. Putic Core verrà chiuso.</translation>
+        <source>Initialization sanity check failed. Putin Classic is shutting down.</source>
+        <translation>Controllo di inizializzazione sanity fallito. Putin Classic verrà chiuso.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
