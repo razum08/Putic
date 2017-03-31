@@ -109,8 +109,8 @@ qint64 BitcoinUnits::factor(int unit)
     switch(unit)
     {
     case PUTIC:  return 100000000;
-    case mPUTIC: return 1000000;
-    case uPUTIC: return 1000;
+    case mPUTIC: return 100000;
+    case uPUTIC: return 100;
     case duffs: return 1;
     default:   return 100000000;
     }
