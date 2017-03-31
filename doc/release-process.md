@@ -157,7 +157,7 @@ rm SHA256SUMS
 
   - Update title of #puticcoin on Freenode IRC
 
-  - Optionally reddit /r/Puticcoin, ... but this will usually sort out itself
+  - Optionally reddit /r/puticcoin, ... but this will usually sort out itself
 
 - Notify Flare (?) ***TODO*** so that he can start building [https://launchpad.net/~puticcoin/+archive/ubuntu/putic](the PPAs) ***TODO***
 

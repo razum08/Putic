@@ -108,11 +108,11 @@ qint64 BitcoinUnits::factor(int unit)
 {
     switch(unit)
     {
-    case PUTIC:  return 100000000;
-    case mPUTIC: return 100000;
-    case uPUTIC: return 100;
+    case PUTIC:  return 1000000000;
+    case mPUTIC: return 10000000;
+    case uPUTIC: return 10000;
     case duffs: return 1;
-    default:   return 100000000;
+    default:   return 1000000000;
     }
 }
 
@@ -120,9 +120,9 @@ int BitcoinUnits::decimals(int unit)
 {
     switch(unit)
     {
-    case PUTIC: return 8;
-    case mPUTIC: return 5;
-    case uPUTIC: return 2;
+    case PUTIC: return 9;
+    case mPUTIC: return 6;
+    case uPUTIC: return 3;
     case duffs: return 0;
     default: return 0;
     }
