@@ -1556,7 +1556,7 @@ int64_t GetBlockValue(int nBits, int nHeight, const CAmount& nFees)
     } else {
         nSubsidy = (1111.0 / (pow((dDiff+1.0),2.0)));
             if (nSubsidy > 5) nSubsidy = 8400;
-            if (nSubsidy < 1) nSubsidy = 8400;
+            if (nSubsidy < 1) nSubsidy = 1;
     }
 
     // LogPrintf("height %u diff %4.2f reward %i \n", nHeight, dDiff, nSubsidy);
