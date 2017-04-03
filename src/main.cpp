@@ -1546,17 +1546,17 @@ int64_t GetBlockValue(int nBits, int nHeight, const CAmount& nFees)
         if((nHeight >= 23000 && dDiff > 75) || nHeight >= 24000) { // GPU/ASIC difficulty calc
             // 2222222/(((x+2600)/9)^2)
             nSubsidy = (2222222.0 / (pow((dDiff+2600.0)/9.0,2.0)));
-            if (nSubsidy > 5) nSubsidy = 5;
+            if (nSubsidy > 25) nSubsidy = 25;
             if (nSubsidy < 5) nSubsidy = 5;
         } else { // CPU mining calc
-            nSubsidy = (1111.0 / (pow((dDiff+1.0),2.0)));
-            if (nSubsidy > 5) nSubsidy = 5;
-            if (nSubsidy < 1) nSubsidy = 1;
+            nSubsidy = (11111.0 / (pow((dDiff+51.0)/6.0,2.0)));
+            if (nSubsidy > 500) nSubsidy = 500;
+            if (nSubsidy < 25) nSubsidy = 25;
         }
     } else {
         nSubsidy = (1111.0 / (pow((dDiff+1.0),2.0)));
-            if (nSubsidy > 5) nSubsidy = 8400;
-            if (nSubsidy < 1) nSubsidy = 8400;
+        if (nSubsidy > 500) nSubsidy = 500;
+        if (nSubsidy < 1) nSubsidy = 1;
     }
 
     // LogPrintf("height %u diff %4.2f reward %i \n", nHeight, dDiff, nSubsidy);

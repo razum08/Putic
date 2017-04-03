@@ -1,5 +1,5 @@
 ---
-name: "putic-win-1.2.1.1"
+name: "putic-win-1.2.1.2"
 enable_cache: true
 suites:
 - "precise"
