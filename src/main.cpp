@@ -67,7 +67,7 @@ bool fAlerts = DEFAULT_ALERTS;
  * We are ~100 times smaller then bitcoin now (2015-06-23), set minRelayTxFee only 10 times higher
  * so it's still 10 times lower comparing to bitcoin.
  */
-CFeeRate minRelayTxFee = CFeeRate(100000);
+CFeeRate minRelayTxFee = CFeeRate(10000);
 
 CTxMemPool mempool(::minRelayTxFee);
 
@@ -1154,10 +1154,10 @@ bool AcceptToMemoryPool(CTxMemPool& pool, CValidationState &state, const CTransa
             }
         }
 
-        if (fRejectInsaneFee && nFees > ::minRelayTxFee.GetFee(nSize) * 100000)
+        if (fRejectInsaneFee && nFees > ::minRelayTxFee.GetFee(nSize) * 10000)
             return error("AcceptToMemoryPool: : insane fees %s, %d > %d",
                          hash.ToString(),
-                         nFees, ::minRelayTxFee.GetFee(nSize) * 100000);
+                         nFees, ::minRelayTxFee.GetFee(nSize) * 10000);
 
         // Check against previous transactions
         // This is done last to help prevent CPU exhaustion denial-of-service attacks.
@@ -1349,10 +1349,10 @@ bool AcceptableInputs(CTxMemPool& pool, CValidationState &state, const CTransact
             }
         }
 
-        if (fRejectInsaneFee && nFees > ::minRelayTxFee.GetFee(nSize) * 100000)
+        if (fRejectInsaneFee && nFees > ::minRelayTxFee.GetFee(nSize) * 10000)
             return error("AcceptableInputs: : insane fees %s, %d > %d",
                          hash.ToString(),
-                         nFees, ::minRelayTxFee.GetFee(nSize) * 100000);
+                         nFees, ::minRelayTxFee.GetFee(nSize) * 10000);
 
         // Check against previous transactions
         // This is done last to help prevent CPU exhaustion denial-of-service attacks.
@@ -1546,17 +1546,17 @@ int64_t GetBlockValue(int nBits, int nHeight, const CAmount& nFees)
         if((nHeight >= 23000 && dDiff > 75) || nHeight >= 24000) { // GPU/ASIC difficulty calc
             // 2222222/(((x+2600)/9)^2)
             nSubsidy = (2222222.0 / (pow((dDiff+2600.0)/9.0,2.0)));
-            if (nSubsidy > 25) nSubsidy = 25;
+            if (nSubsidy > 5) nSubsidy = 5;
             if (nSubsidy < 5) nSubsidy = 5;
         } else { // CPU mining calc
-            nSubsidy = (11111.0 / (pow((dDiff+51.0)/6.0,2.0)));
-            if (nSubsidy > 500) nSubsidy = 500;
-            if (nSubsidy < 25) nSubsidy = 25;
+            nSubsidy = (1111.0 / (pow((dDiff+1.0),2.0)));
+            if (nSubsidy > 5) nSubsidy = 5;
+            if (nSubsidy < 1) nSubsidy = 1;
         }
     } else {
-        nSubsidy = (1111.0 / (pow((dDiff+1.0),2.0)));
-        if (nSubsidy > 500) nSubsidy = 500;
-        if (nSubsidy < 1) nSubsidy = 1;
+        nSubsidy = (111.0 / (pow((dDiff+1.0),2.0)));
+            if (nSubsidy > 5) nSubsidy = 8400;
+            if (nSubsidy < 1) nSubsidy = 8400;
     }
 
     // LogPrintf("height %u diff %4.2f reward %i \n", nHeight, dDiff, nSubsidy);
