@@ -95,7 +95,7 @@ public:
     {
         if (fee < CFeeRate(0))
             return false;
-        if (fee.GetFeePerK() > minRelayFee.GetFeePerK() * 100000)
+        if (fee.GetFeePerK() > minRelayFee.GetFeePerK() * 10000)
             return false;
         return true;
     }

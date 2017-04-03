@@ -1539,24 +1539,22 @@ int64_t GetBlockValue(int nBits, int nHeight, const CAmount& nFees)
     double dDiff = (double)0x0000ffff / (double)(nBits & 0x00ffffff);
 	
     /* fixed bug caused diff to not be correctly calculated */
-    if(nHeight > 9035 || Params().NetworkID() == CBaseChainParams::TESTNET) dDiff = ConvertBitsToDouble(nBits);
+    if(nHeight > 42500 || Params().NetworkID() == CBaseChainParams::TESTNET) dDiff = ConvertBitsToDouble(nBits);
 
     int64_t nSubsidy = 0;
-    if(nHeight >= 10000) {
-        if((nHeight >= 23000 && dDiff > 75) || nHeight >= 24000) { // GPU/ASIC difficulty calc
+    if(nHeight >= 42502) {
+        if((nHeight >= 42505 && dDiff > 75) || nHeight >= 42550) { // GPU/ASIC difficulty calc
             // 2222222/(((x+2600)/9)^2)
             nSubsidy = (2222222.0 / (pow((dDiff+2600.0)/9.0,2.0)));
-            if (nSubsidy > 5) nSubsidy = 5;
+            if (nSubsidy > 25) nSubsidy = 5;
             if (nSubsidy < 5) nSubsidy = 5;
         } else { // CPU mining calc
-            nSubsidy = (1111.0 / (pow((dDiff+1.0),2.0)));
-            if (nSubsidy > 5) nSubsidy = 5;
-            if (nSubsidy < 1) nSubsidy = 1;
+            nSubsidy = (11111.0 / (pow((dDiff+51.0)/6.0,2.0)));
+            if (nSubsidy > 500) nSubsidy = 5;
+            if (nSubsidy < 25) nSubsidy = 5;
         }
     } else {
-        nSubsidy = (111.0 / (pow((dDiff+1.0),2.0)));
-            if (nSubsidy > 5) nSubsidy = 8400;
-            if (nSubsidy < 1) nSubsidy = 8400;
+        nSubsidy = 2000;
     }
 
     // LogPrintf("height %u diff %4.2f reward %i \n", nHeight, dDiff, nSubsidy);
