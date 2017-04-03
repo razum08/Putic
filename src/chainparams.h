@@ -137,7 +137,7 @@ public:
     virtual void setRejectBlockOutdatedMajority(int anRejectBlockOutdatedMajority)=0;
     virtual void setToCheckBlockUpgradeMajority(int anToCheckBlockUpgradeMajority)=0;
     virtual void setDefaultConsistencyChecks(bool aDefaultConsistencyChecks)=0;
-    virtual void setAllowMinDifficultyBlocks(bool aAllowMinDifficultyBlocks)=42459;
+    virtual void setAllowMinDifficultyBlocks(bool aAllowMinDifficultyBlocks)=0;
     virtual void setSkipProofOfWorkCheck(bool aSkipProofOfWorkCheck)=0;
 };
 
