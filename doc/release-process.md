@@ -58,7 +58,7 @@ Release Process
 
   Only missing files will be fetched, so this is safe to re-run for each build.
 
-###Build Putin Classic for Linux, Windows, and OS X:
+###Build Putic Core for Linux, Windows, and OS X:
 
 	./bin/gbuild --commit putic=v${VERSION} ../putic/contrib/gitian-descriptors/gitian-linux.yml
 	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../putic/contrib/gitian-descriptors/gitian-linux.yml

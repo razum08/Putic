@@ -15,9 +15,9 @@
 
 //! These need to be macros, as clientversion.cpp's and putic*-res.rc's voodoo requires it
 #define CLIENT_VERSION_MAJOR 1
-#define CLIENT_VERSION_MINOR 2
-#define CLIENT_VERSION_REVISION 1
-#define CLIENT_VERSION_BUILD 8
+#define CLIENT_VERSION_MINOR 6
+#define CLIENT_VERSION_REVISION 0
+#define CLIENT_VERSION_BUILD 2
 
 //! Set to true for release, false for prerelease or test build
 #define CLIENT_VERSION_IS_RELEASE true
@@ -26,7 +26,7 @@
  * Copyright year (2009-this)
  * Todo: update this when changing our copyright comments in the source
  */
-#define COPYRIGHT_YEAR 2017
+#define COPYRIGHT_YEAR 2015
 
 #endif //HAVE_CONFIG_H
 
@@ -38,7 +38,7 @@
 #define DO_STRINGIZE(X) #X
 
 //! Copyright string used in Windows .rc files
-#define COPYRIGHT_STR "2009-" STRINGIZE(COPYRIGHT_YEAR) " The Bitcoin Core Developers, 2014-" STRINGIZE(COPYRIGHT_YEAR) " The Putin Classic Developers"
+#define COPYRIGHT_STR "2009-" STRINGIZE(COPYRIGHT_YEAR) " The Bitcoin Core Developers, 2014-" STRINGIZE(COPYRIGHT_YEAR) " The Putic Core Developers"
 
 /**
  * puticd-res.rc includes this file, but it cannot cope with real c++ code.

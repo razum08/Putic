@@ -16,7 +16,7 @@ BITCOIND_USER=${BITCOIND_USER:-putic}
 BITCOIND_GROUP=${BITCOIND_GROUP:-putic}
 BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/puticd}
 
-name="Putin Classic Daemon"
+name="Putic Core Daemon"
 description="Putic crypto-currency p2p network daemon"
 
 command="/usr/bin/puticd"

@@ -47,7 +47,7 @@ static bool AppInitRawTx(int argc, char* argv[])
     if (argc<2 || mapArgs.count("-?") || mapArgs.count("-help"))
     {
         // First part of help message is specific to this utility
-        std::string strUsage = _("Putin Classic putic-tx utility version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("Putic Core putic-tx utility version") + " " + FormatFullVersion() + "\n\n" +
             _("Usage:") + "\n" +
               "  putic-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded putic transaction") + "\n" +
               "  putic-tx [options] -create [commands]   " + _("Create hex-encoded putic transaction") + "\n" +

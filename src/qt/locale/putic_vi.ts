@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Putin Classic</source>
-        <translation>Putin Classic</translation>
+        <source>Putic Core</source>
+        <translation>Putic Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -283,12 +283,12 @@
         <translation>Thoát ứng dụng</translation>
     </message>
     <message>
-        <source>&amp;About Putin Classic</source>
-        <translation>&amp;Về Putin Classic</translation>
+        <source>&amp;About Putic Core</source>
+        <translation>&amp;Về Putic Core</translation>
     </message>
     <message>
-        <source>Show information about Putin Classic</source>
-        <translation>Hiển thị thông tin về Putin Classic</translation>
+        <source>Show information about Putic Core</source>
+        <translation>Hiển thị thông tin về Putic Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -451,8 +451,8 @@
         <translation>&amp;Các Tuỳ chọn dòng lệnh</translation>
     </message>
     <message>
-        <source>Putin Classic client</source>
-        <translation>Phần mềm Putin Classic</translation>
+        <source>Putic Core client</source>
+        <translation>Phần mềm Putic Core</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
@@ -463,8 +463,8 @@
         <translation>Đang đồng bộ những dữ liệu bổ sung: %p%</translation>
     </message>
     <message>
-        <source>Show the Putin Classic help message to get a list with possible Putic command-line options</source>
-        <translation>Hiển thị hướng dẫn của Putin Classic để có danh sách đầy đủ các tuỳ chọn dòng lệnh của Putic.</translation>
+        <source>Show the Putic Core help message to get a list with possible Putic command-line options</source>
+        <translation>Hiển thị hướng dẫn của Putic Core để có danh sách đầy đủ các tuỳ chọn dòng lệnh của Putic.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -989,8 +989,8 @@ Kiểu: %3
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Putin Classic</source>
-        <translation>Putin Classic</translation>
+        <source>Putic Core</source>
+        <translation>Putic Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -1001,8 +1001,8 @@ Kiểu: %3
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Putin Classic</source>
-        <translation>Về Putin Classic</translation>
+        <source>About Putic Core</source>
+        <translation>Về Putic Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1048,16 +1048,16 @@ Kiểu: %3
         <translation>Chào mừng</translation>
     </message>
     <message>
-        <source>Welcome to Putin Classic.</source>
-        <translation>Chào mừng đến với Putin Classic.</translation>
+        <source>Welcome to Putic Core.</source>
+        <translation>Chào mừng đến với Putic Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Putin Classic will store its data.</source>
-        <translation>Đây là lần đầu tiên chương trình được khởi động, bạn có thể chọn nơi mà Putin Classic sẽ lưu dữ liệu.</translation>
+        <source>As this is the first time the program is launched, you can choose where Putic Core will store its data.</source>
+        <translation>Đây là lần đầu tiên chương trình được khởi động, bạn có thể chọn nơi mà Putic Core sẽ lưu dữ liệu.</translation>
     </message>
     <message>
-        <source>Putin Classic will download and store a copy of the Putic block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Putin Classic sẽ tải và lưu một bản của sổ cái Putic. Ít nhất %1GB dữ liệu sẽ được lưu trong thư mục này, và nó sẽ tăng lên theo thời gian. Ví của bạn cũng sẽ được lưu trong thư mục này.</translation>
+        <source>Putic Core will download and store a copy of the Putic block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Putic Core sẽ tải và lưu một bản của sổ cái Putic. Ít nhất %1GB dữ liệu sẽ được lưu trong thư mục này, và nó sẽ tăng lên theo thời gian. Ví của bạn cũng sẽ được lưu trong thư mục này.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1068,8 +1068,8 @@ Kiểu: %3
         <translation>Sử dụng thư mục dữ liệu tuỳ chọn:</translation>
     </message>
     <message>
-        <source>Putin Classic</source>
-        <translation>Putin Classic</translation>
+        <source>Putic Core</source>
+        <translation>Putic Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -2586,8 +2586,8 @@ https://www.transifex.com/projects/p/putic/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Putin Classic is shutting down...</source>
-        <translation>Putin Classic đang được tắt...</translation>
+        <source>Putic Core is shutting down...</source>
+        <translation>Putic Core đang được tắt...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2736,8 +2736,8 @@ https://www.transifex.com/projects/p/putic/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Putin Classic</source>
-        <translation>Putin Classic</translation>
+        <source>Putic Core</source>
+        <translation>Putic Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2748,8 +2748,8 @@ https://www.transifex.com/projects/p/putic/</translation>
         <translation>Nhóm phát triển Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Putin Classic developers</source>
-        <translation>Nhóm phát triển Putin Classic</translation>
+        <source>The Putic Core developers</source>
+        <translation>Nhóm phát triển Putic Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3326,8 +3326,8 @@ https://www.transifex.com/projects/p/putic/</translation>
         <translation>Liên kết với địa chỉ nhất định và luôn luôn lắng nghe trên đó. Sử dụng ký hiệu [host]:port cho IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Putin Classic is probably already running.</source>
-        <translation>Không nhận được một khoá trong thư mục %s. Putin Classic có thể đã đang chạy.</translation>
+        <source>Cannot obtain a lock on data directory %s. Putic Core is probably already running.</source>
+        <translation>Không nhận được một khoá trong thư mục %s. Putic Core có thể đã đang chạy.</translation>
     </message>
     <message>
         <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3382,8 +3382,8 @@ https://www.transifex.com/projects/p/putic/</translation>
         <translation>Đây là phiên bản chưa chính thức - hãy dùng và tự chấp nhận mạo hiểm - đừng dùng để đào coin hoặc các ứng dụng thương mại.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Putin Classic is probably already running.</source>
-        <translation>Không thể để ràng buộc vào %s trên máy tính này. Putin Classic có thể đã chạy.</translation>
+        <source>Unable to bind to %s on this computer. Putic Core is probably already running.</source>
+        <translation>Không thể để ràng buộc vào %s trên máy tính này. Putic Core có thể đã chạy.</translation>
     </message>
     <message>
         <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
@@ -3746,8 +3746,8 @@ ví dụ: alertnotify=echo %%s | mail -s "Putic Alert" admin@foo.com
         <translation>Cảnh báo: -maxtxfee được đặt rất cao! Mức Phí cao này sẽ được trả cho mỗi một giao dịch đơn.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Putin Classic will not work properly.</source>
-        <translation>Cánh báo: Hãy vui lòng kiểm tra ngày giờ máy tính của bạn cho chính xác! Nếu đồng hồ của bạn sai thì Putin Classic sẽ không làm việc một cách hoàn hảo.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Putic Core will not work properly.</source>
+        <translation>Cánh báo: Hãy vui lòng kiểm tra ngày giờ máy tính của bạn cho chính xác! Nếu đồng hồ của bạn sai thì Putic Core sẽ không làm việc một cách hoàn hảo.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
@@ -3799,8 +3799,8 @@ ví dụ: alertnotify=echo %%s | mail -s "Putic Alert" admin@foo.com
         <translation>Bản quyền (C) 2009-%i bởi Nhóm phát triển Bitcoin Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Putin Classic Developers</source>
-        <translation>Bản quyền (C) 2014-%i bởi Nhóm phát triển Putin Classic</translation>
+        <source>Copyright (C) 2014-%i The Putic Core Developers</source>
+        <translation>Bản quyền (C) 2014-%i bởi Nhóm phát triển Putic Core</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3831,8 +3831,8 @@ ví dụ: alertnotify=echo %%s | mail -s "Putic Alert" admin@foo.com
         <translation>Lỗi kết nối tới Masternode.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Putin Classic</source>
-        <translation>Lỗi nạp wallet.dat: Ví cần một phiên bản mới hơn của Putin Classic</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Putic Core</source>
+        <translation>Lỗi nạp wallet.dat: Ví cần một phiên bản mới hơn của Putic Core</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3903,8 +3903,8 @@ ví dụ: alertnotify=echo %%s | mail -s "Putic Alert" admin@foo.com
         <translation>Thông tin</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Putin Classic is shutting down.</source>
-        <translation>Khởi tạo việc kiểm tra tính đúng đắn thất bại. Putin Classic đang được tắt.</translation>
+        <source>Initialization sanity check failed. Putic Core is shutting down.</source>
+        <translation>Khởi tạo việc kiểm tra tính đúng đắn thất bại. Putic Core đang được tắt.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4155,8 +4155,8 @@ ví dụ: alertnotify=echo %%s | mail -s "Putic Alert" admin@foo.com
         <translation>Sử dụng UPnP để ánh xạ cổng lắng nghe (ngầm định: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Putin Classic to complete</source>
-        <translation>Ví cần được ghi lại: khởi động lại Putin Classic để hoàn tất</translation>
+        <source>Wallet needed to be rewritten: restart Putic Core to complete</source>
+        <translation>Ví cần được ghi lại: khởi động lại Putic Core để hoàn tất</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>

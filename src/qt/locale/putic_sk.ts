@@ -189,7 +189,7 @@
     </message>
     <message>
         <source>Putic will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your putics from being stolen by malware infecting your computer.</source>
-        <translation>PuticCoin sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť Vaše mince pred krádežou škodlivým softvérom, ktorý napadol váš počítač.</translation>
+        <translation>puticcoin sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť Vaše mince pred krádežou škodlivým softvérom, ktorý napadol váš počítač.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Putin Classic</source>
-        <translation>Putin Classic</translation>
+        <source>Putic Core</source>
+        <translation>Putic Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -283,12 +283,12 @@
         <translation>Ukončiť program</translation>
     </message>
     <message>
-        <source>&amp;About Putin Classic</source>
-        <translation>&amp;O Putin Classic</translation>
+        <source>&amp;About Putic Core</source>
+        <translation>&amp;O Putic Core</translation>
     </message>
     <message>
-        <source>Show information about Putin Classic</source>
-        <translation>Zobraziť informácie o Putin Classic</translation>
+        <source>Show information about Putic Core</source>
+        <translation>Zobraziť informácie o Putic Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -451,8 +451,8 @@
         <translation>Možnosti príkazového riadku</translation>
     </message>
     <message>
-        <source>Putin Classic client</source>
-        <translation>Putin Classic klient</translation>
+        <source>Putic Core client</source>
+        <translation>Putic Core klient</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
@@ -463,8 +463,8 @@
         <translation>Synchronizujú sa ďalšie dáta: %p%</translation>
     </message>
     <message>
-        <source>Show the Putin Classic help message to get a list with possible Putic command-line options</source>
-        <translation>Zobraziť Putin Classic nápovedu k získaniu zoznamu možností príkazového riadku Putic.</translation>
+        <source>Show the Putic Core help message to get a list with possible Putic command-line options</source>
+        <translation>Zobraziť Putic Core nápovedu k získaniu zoznamu možností príkazového riadku Putic.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -988,8 +988,8 @@ Adresa: %4</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Putin Classic</source>
-        <translation>Putin Classic</translation>
+        <source>Putic Core</source>
+        <translation>Putic Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -1000,8 +1000,8 @@ Adresa: %4</translation>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Putin Classic</source>
-        <translation>O Putin Classic</translation>
+        <source>About Putic Core</source>
+        <translation>O Putic Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1047,16 +1047,16 @@ Adresa: %4</translation>
         <translation>Vitajte</translation>
     </message>
     <message>
-        <source>Welcome to Putin Classic.</source>
-        <translation>Vitajte v Putin Classic.</translation>
+        <source>Welcome to Putic Core.</source>
+        <translation>Vitajte v Putic Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Putin Classic will store its data.</source>
-        <translation>Keďže toto je prvý krát čo spúšťate tento program, môžete vybrať kam bude Putin Classic ukladať svoje dáta.</translation>
+        <source>As this is the first time the program is launched, you can choose where Putic Core will store its data.</source>
+        <translation>Keďže toto je prvý krát čo spúšťate tento program, môžete vybrať kam bude Putic Core ukladať svoje dáta.</translation>
     </message>
     <message>
-        <source>Putin Classic will download and store a copy of the Putic block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Putin Classic stiahne a uloží kópiu reťazca blokov Putic. Pri najmenej %1GB dát bude uložených v tejto zložke and bude ďalej rásť. Peňaženka bude tiež uložená v tejto zložke.</translation>
+        <source>Putic Core will download and store a copy of the Putic block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Putic Core stiahne a uloží kópiu reťazca blokov Putic. Pri najmenej %1GB dát bude uložených v tejto zložke and bude ďalej rásť. Peňaženka bude tiež uložená v tejto zložke.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1067,8 +1067,8 @@ Adresa: %4</translation>
         <translation>Použiť vlastný dátový adresár:</translation>
     </message>
     <message>
-        <source>Putin Classic</source>
-        <translation>Putin Classic</translation>
+        <source>Putic Core</source>
+        <translation>Putic Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -2585,7 +2585,7 @@ https://www.transifex.com/projects/p/putic/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Putin Classic is shutting down...</source>
+        <source>Putic Core is shutting down...</source>
         <translation>Putic core sa vypína...</translation>
     </message>
     <message>
@@ -2735,8 +2735,8 @@ https://www.transifex.com/projects/p/putic/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Putin Classic</source>
-        <translation>Putin Classic</translation>
+        <source>Putic Core</source>
+        <translation>Putic Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2747,8 +2747,8 @@ https://www.transifex.com/projects/p/putic/</translation>
         <translation>Vývojári jadra Bitcoin</translation>
     </message>
     <message>
-        <source>The Putin Classic developers</source>
-        <translation>Vývojári Putin Classic</translation>
+        <source>The Putic Core developers</source>
+        <translation>Vývojári Putic Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3325,8 +3325,8 @@ https://www.transifex.com/projects/p/putic/</translation>
         <translation>Spojiť s danou adresou a vždy na nej počúvať. Použite zápis [host]:port pre IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Putin Classic is probably already running.</source>
-        <translation>Nedá sa zamknúť dátový adresár %s. Putin Classic už pravdepodobne beží.</translation>
+        <source>Cannot obtain a lock on data directory %s. Putic Core is probably already running.</source>
+        <translation>Nedá sa zamknúť dátový adresár %s. Putic Core už pravdepodobne beží.</translation>
     </message>
     <message>
         <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3381,8 +3381,8 @@ https://www.transifex.com/projects/p/putic/</translation>
         <translation>Toto je predbežná testovacia zostava - používate na vlastné riziko - nepoužívajte na ťaženie alebo obchodné aplikácie</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Putin Classic is probably already running.</source>
-        <translation>Nedá sa viazať ku %s na tomto počítači. Putin Classic už pravdepodobne beží.</translation>
+        <source>Unable to bind to %s on this computer. Putic Core is probably already running.</source>
+        <translation>Nedá sa viazať ku %s na tomto počítači. Putic Core už pravdepodobne beží.</translation>
     </message>
     <message>
         <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
@@ -3745,8 +3745,8 @@ napríklad: alertnotify=echo %%s | mail -s "Putic Upozornenie" admin@foo.com
         <translation>Upozornenie: -maxtxfee je nastavené príliš vysoko! Takto vysoké poplatky by mali byť zaplatené za jednu transakciu.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Putin Classic will not work properly.</source>
-        <translation>Upozornenie: Skontrolujte si prosím či máte správny čas a dátum na Vašom počítači. Ak je Vaše nastavenie zlé, Putin Classic nebude pracovať správne.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Putic Core will not work properly.</source>
+        <translation>Upozornenie: Skontrolujte si prosím či máte správny čas a dátum na Vašom počítači. Ak je Vaše nastavenie zlé, Putic Core nebude pracovať správne.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
@@ -3799,7 +3799,7 @@ napríklad: alertnotify=echo %%s | mail -s "Putic Upozornenie" admin@foo.com
         <translation>Autorské práva (C) 2009-%i Vývojári jadra Bitcoin</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Putin Classic Developers</source>
+        <source>Copyright (C) 2014-%i The Putic Core Developers</source>
         <translation>Autorské práva (C) 2014-%i Vývojári jadra Putic</translation>
     </message>
     <message>
@@ -3831,8 +3831,8 @@ napríklad: alertnotify=echo %%s | mail -s "Putic Upozornenie" admin@foo.com
         <translation>Chyba pripojenia k Masternode.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Putin Classic</source>
-        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu Putin Classic</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Putic Core</source>
+        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu Putic Core</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3903,8 +3903,8 @@ napríklad: alertnotify=echo %%s | mail -s "Putic Upozornenie" admin@foo.com
         <translation>Informácia</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Putin Classic is shutting down.</source>
-        <translation>Inicializácia kontroly zdravia zlyhala. Putin Classic sa vypína.</translation>
+        <source>Initialization sanity check failed. Putic Core is shutting down.</source>
+        <translation>Inicializácia kontroly zdravia zlyhala. Putic Core sa vypína.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4155,8 +4155,8 @@ napríklad: alertnotify=echo %%s | mail -s "Putic Upozornenie" admin@foo.com
         <translation>Použiť UPnP pre mapovanie počúvajúceho portu (predvolené: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Putin Classic to complete</source>
-        <translation>Bolo potrebné prepísať peňaženku: k dokončeniu reštartujte Putin Classic</translation>
+        <source>Wallet needed to be rewritten: restart Putic Core to complete</source>
+        <translation>Bolo potrebné prepísať peňaženku: k dokončeniu reštartujte Putic Core</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>

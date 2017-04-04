@@ -231,7 +231,7 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Putin Classic</source>
+        <source>Putic Core</source>
         <translation>Putic Ядро</translation>
     </message>
     <message>
@@ -283,12 +283,12 @@
         <translation>Изход от приложението</translation>
     </message>
     <message>
-        <source>&amp;About Putin Classic</source>
+        <source>&amp;About Putic Core</source>
         <translation>&amp;За Putic ядрото</translation>
     </message>
     <message>
-        <source>Show information about Putin Classic</source>
-        <translation>Покаци информация за Putin Classic</translation>
+        <source>Show information about Putic Core</source>
+        <translation>Покаци информация за Putic Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -451,8 +451,8 @@
         <translation>&amp;Опции на командния ред</translation>
     </message>
     <message>
-        <source>Putin Classic client</source>
-        <translation>Putin Classic клиент</translation>
+        <source>Putic Core client</source>
+        <translation>Putic Core клиент</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
@@ -463,7 +463,7 @@
         <translation>Синхронизиране на допълнителни данни: %p%</translation>
     </message>
     <message>
-        <source>Show the Putin Classic help message to get a list with possible Putic command-line options</source>
+        <source>Show the Putic Core help message to get a list with possible Putic command-line options</source>
         <translation>Покажи съобщението за помощ на Putic ядрото за да получиш списък на възможните опции за командния ред</translation>
     </message>
     <message>
@@ -989,7 +989,7 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Putin Classic</source>
+        <source>Putic Core</source>
         <translation>Putic ядро</translation>
     </message>
     <message>
@@ -1001,7 +1001,7 @@ Address: %4
         <translation>(%1-битов)</translation>
     </message>
     <message>
-        <source>About Putin Classic</source>
+        <source>About Putic Core</source>
         <translation>За Putic ядрото</translation>
     </message>
     <message>
@@ -1048,15 +1048,15 @@ Address: %4
         <translation>Добре дошли</translation>
     </message>
     <message>
-        <source>Welcome to Putin Classic.</source>
+        <source>Welcome to Putic Core.</source>
         <translation>Добре дошли в ядрото на Putic.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Putin Classic will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Putic Core will store its data.</source>
         <translation>Тъй като програмата се стартира за първи път вие може да изберете къде Putic да съхранява своята информация.</translation>
     </message>
     <message>
-        <source>Putin Classic will download and store a copy of the Putic block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Putic Core will download and store a copy of the Putic block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>Putic ще свали и съхрани копие на Putic регистъра на блокове. Информацията ще заеме поне %1ГБ  пространство и ще нараства с времето. В тази папка ще бъде съхранен и портфейла. </translation>
     </message>
     <message>
@@ -1068,7 +1068,7 @@ Address: %4
         <translation>Определете папка по ваш избор:</translation>
     </message>
     <message>
-        <source>Putin Classic</source>
+        <source>Putic Core</source>
         <translation>Putic ядро</translation>
     </message>
     <message>
@@ -2586,7 +2586,7 @@ https://www.transifex.com/projects/p/putic/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Putin Classic is shutting down...</source>
+        <source>Putic Core is shutting down...</source>
         <translation>Putic ядрото се изключва...</translation>
     </message>
     <message>
@@ -2736,7 +2736,7 @@ https://www.transifex.com/projects/p/putic/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Putin Classic</source>
+        <source>Putic Core</source>
         <translation>Putic Ядро</translation>
     </message>
     <message>
@@ -2748,7 +2748,7 @@ https://www.transifex.com/projects/p/putic/</translation>
         <translation>Водещи Bitcoin разработчици</translation>
     </message>
     <message>
-        <source>The Putin Classic developers</source>
+        <source>The Putic Core developers</source>
         <translation>Водещи Putic разработчици</translation>
     </message>
     <message>
@@ -3326,7 +3326,7 @@ https://www.transifex.com/projects/p/putic/</translation>
         <translation>Свързва се с посочения адрес и винаги слуша за него. Използвайте [хост]:порт за изписване при IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Putin Classic is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Putic Core is probably already running.</source>
         <translation>Не може да се заключи дата директорията %s. Putic ядрото вече работи.</translation>
     </message>
     <message>
@@ -3382,7 +3382,7 @@ https://www.transifex.com/projects/p/putic/</translation>
         <translation>Това е предварителна тест версия - използвайте я на ваша отговорност - не използвайте за копане или за търговски приложения.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Putin Classic is probably already running.</source>
+        <source>Unable to bind to %s on this computer. Putic Core is probably already running.</source>
         <translation>Не може да се свърже с %s на този компютър. Putic ядрото най-вероятно вече работи.</translation>
     </message>
     <message>
@@ -3737,8 +3737,8 @@ for example: alertnotify=echo %%s | mail -s "Putic Alert" admin@foo.com
         <translation>Внимание: -maxtxfee  е с много голяма зададена стойност! Това е транзакционната такса, която ще платите ако направите единична транзакция.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Putin Classic will not work properly.</source>
-        <translation>Внимание: Моля проверете дали датата и часът на вашият компютър са верни! Ако часовникът ви не е сверен, Putin Classic няма да работи правилно.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Putic Core will not work properly.</source>
+        <translation>Внимание: Моля проверете дали датата и часът на вашият компютър са верни! Ако часовникът ви не е сверен, Putic Core няма да работи правилно.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
@@ -3791,8 +3791,8 @@ for example: alertnotify=echo %%s | mail -s "Putic Alert" admin@foo.com
         <translation>Запазени права (C) 2009-%i Bitcoin Core разработчици</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Putin Classic Developers</source>
-        <translation>Запазени права (C) 2014-%i Putin Classic разработчиците</translation>
+        <source>Copyright (C) 2014-%i The Putic Core Developers</source>
+        <translation>Запазени права (C) 2014-%i Putic Core разработчиците</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3823,8 +3823,8 @@ for example: alertnotify=echo %%s | mail -s "Putic Alert" admin@foo.com
         <translation>Грешка при свързване с Masternode.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Putin Classic</source>
-        <translation>Грешка при зареждане на wallet.dat: портфейлът изисква по-нова версия на Putin Classic</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Putic Core</source>
+        <translation>Грешка при зареждане на wallet.dat: портфейлът изисква по-нова версия на Putic Core</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3895,7 +3895,7 @@ for example: alertnotify=echo %%s | mail -s "Putic Alert" admin@foo.com
         <translation>Информация</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Putin Classic is shutting down.</source>
+        <source>Initialization sanity check failed. Putic Core is shutting down.</source>
         <translation>Инициализационната проверка не успешна. Putic ядрото се изключва.</translation>
     </message>
     <message>
@@ -4147,7 +4147,7 @@ for example: alertnotify=echo %%s | mail -s "Putic Alert" admin@foo.com
         <translation>Използвай UPnP за определяне на порта за слушане (по подразбиране: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Putin Classic to complete</source>
+        <source>Wallet needed to be rewritten: restart Putic Core to complete</source>
         <translation>Портфейлът трябва да бъде презаписан: рестартирайте Putic за да завършите</translation>
     </message>
     <message>

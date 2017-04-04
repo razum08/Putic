@@ -219,8 +219,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Putin Classic</source>
-        <translation>Putin Classic
+        <source>Putic Core</source>
+        <translation>Putic Core
 </translation>
     </message>
     <message>
@@ -272,8 +272,8 @@
         <translation>Avsluta applikationen</translation>
     </message>
     <message>
-        <source>&amp;About Putin Classic</source>
-        <translation>&amp;Om Putin Classic</translation>
+        <source>&amp;About Putic Core</source>
+        <translation>&amp;Om Putic Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -412,8 +412,8 @@
         <translation>&amp;Kommandoradalternativ</translation>
     </message>
     <message>
-        <source>Show the Putin Classic help message to get a list with possible Putic command-line options</source>
-        <translation>Visa Putin Classic-hjälpmeddelandet för att få en lista med möjliga Putic-kommandoradalternativ</translation>
+        <source>Show the Putic Core help message to get a list with possible Putic command-line options</source>
+        <translation>Visa Putic Core-hjälpmeddelandet för att få en lista med möjliga Putic-kommandoradalternativ</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -883,8 +883,8 @@ Adress: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Putin Classic</source>
-        <translation>Putin Classic
+        <source>Putic Core</source>
+        <translation>Putic Core
 </translation>
     </message>
     <message>
@@ -931,16 +931,16 @@ Adress: %4
         <translation>Välkommen</translation>
     </message>
     <message>
-        <source>Welcome to Putin Classic.</source>
-        <translation>Välkommen till Putin Classic.</translation>
+        <source>Welcome to Putic Core.</source>
+        <translation>Välkommen till Putic Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Putin Classic will store its data.</source>
-        <translation>Då detta är första gången programmet startas kan du välja var Putin Classic ska lagra sin data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Putic Core will store its data.</source>
+        <translation>Då detta är första gången programmet startas kan du välja var Putic Core ska lagra sin data.</translation>
     </message>
     <message>
-        <source>Putin Classic will download and store a copy of the Putic block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Putin Classic kommer att laddas ned och lagra en kopia av Putic:s blockkedja. Minst %1 GB data kommer att lagras i denna katalog och den kommer att växa med tiden. Plånboken kommer också att lagras i denna katalog.</translation>
+        <source>Putic Core will download and store a copy of the Putic block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Putic Core kommer att laddas ned och lagra en kopia av Putic:s blockkedja. Minst %1 GB data kommer att lagras i denna katalog och den kommer att växa med tiden. Plånboken kommer också att lagras i denna katalog.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1985,8 +1985,8 @@ https://www.transifex.com/projects/p/putic/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Putin Classic is shutting down...</source>
-        <translation>Putin Classic stängs ned...</translation>
+        <source>Putic Core is shutting down...</source>
+        <translation>Putic Core stängs ned...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2127,8 +2127,8 @@ https://www.transifex.com/projects/p/putic/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Putin Classic</source>
-        <translation>Putin Classic
+        <source>Putic Core</source>
+        <translation>Putic Core
 </translation>
     </message>
     <message>
@@ -2140,8 +2140,8 @@ https://www.transifex.com/projects/p/putic/</translation>
         <translation>Bitcoin Core-utvecklarna</translation>
     </message>
     <message>
-        <source>The Putin Classic developers</source>
-        <translation>Putin Classic-utvecklarna</translation>
+        <source>The Putic Core developers</source>
+        <translation>Putic Core-utvecklarna</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2662,8 +2662,8 @@ https://www.transifex.com/projects/p/putic/</translation>
         <translation>Sammanbind till fastställd adress och avlyssna alltid den. Använd [host]:port-notation för IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Putin Classic is probably already running.</source>
-        <translation>Kan inte erhålla ett lås på datakatalog %s. Putin Classic körs förmodligen redan.</translation>
+        <source>Cannot obtain a lock on data directory %s. Putic Core is probably already running.</source>
+        <translation>Kan inte erhålla ett lås på datakatalog %s. Putic Core körs förmodligen redan.</translation>
     </message>
     <message>
         <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -2718,8 +2718,8 @@ https://www.transifex.com/projects/p/putic/</translation>
         <translation>Detta är en förhandsutgiven testkompilering - använd på egen risk - använd inte för utvinning eller handlarapplikationer.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Putin Classic is probably already running.</source>
-        <translation>Det går inte att binda till %s till denna dator. Putin Classic körs förmodligen redan.</translation>
+        <source>Unable to bind to %s on this computer. Putic Core is probably already running.</source>
+        <translation>Det går inte att binda till %s till denna dator. Putic Core körs förmodligen redan.</translation>
     </message>
     <message>
         <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
@@ -2942,8 +2942,8 @@ https://www.transifex.com/projects/p/putic/</translation>
         <translation>Information</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Putin Classic is shutting down.</source>
-        <translation>Initialiseringstillståndkontroll misslyckades. Putin Classic stängs ned.</translation>
+        <source>Initialization sanity check failed. Putic Core is shutting down.</source>
+        <translation>Initialiseringstillståndkontroll misslyckades. Putic Core stängs ned.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>

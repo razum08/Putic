@@ -30,7 +30,7 @@ QT_TRANSLATE_NOOP("putic-core", ""
 "notation for IPv6. This option can be specified multiple times (default: "
 "bind to all interfaces)"),
 QT_TRANSLATE_NOOP("putic-core", ""
-"Cannot obtain a lock on data directory %s. Putin Classic is probably already "
+"Cannot obtain a lock on data directory %s. Putic Core is probably already "
 "running."),
 QT_TRANSLATE_NOOP("putic-core", ""
 "Change automatic finalized budget voting behavior. mode=auto: Vote for only "
@@ -162,7 +162,7 @@ QT_TRANSLATE_NOOP("putic-core", ""
 "It is also recommended to set alertnotify so you are notified of problems;\n"
 "for example: alertnotify=echo %%s | mail -s \"Putic Alert\" admin@foo.com\n"),
 QT_TRANSLATE_NOOP("putic-core", ""
-"Unable to bind to %s on this computer. Putin Classic is probably already running."),
+"Unable to bind to %s on this computer. Putic Core is probably already running."),
 QT_TRANSLATE_NOOP("putic-core", ""
 "Unable to locate enough Darksend denominated funds for this transaction."),
 QT_TRANSLATE_NOOP("putic-core", ""
@@ -182,7 +182,7 @@ QT_TRANSLATE_NOOP("putic-core", ""
 "pay if you send a transaction."),
 QT_TRANSLATE_NOOP("putic-core", ""
 "Warning: Please check that your computer's date and time are correct! If "
-"your clock is wrong Putin Classic will not work properly."),
+"your clock is wrong Putic Core will not work properly."),
 QT_TRANSLATE_NOOP("putic-core", ""
 "Warning: The network does not appear to fully agree! Some miners appear to "
 "be experiencing issues."),
@@ -235,7 +235,7 @@ QT_TRANSLATE_NOOP("putic-core", "Connect to KeePassHttp on port <port> (default:
 QT_TRANSLATE_NOOP("putic-core", "Connect to a node to retrieve peer addresses, and disconnect"),
 QT_TRANSLATE_NOOP("putic-core", "Connection options:"),
 QT_TRANSLATE_NOOP("putic-core", "Copyright (C) 2009-%i The Bitcoin Core Developers"),
-QT_TRANSLATE_NOOP("putic-core", "Copyright (C) 2014-%i The Putin Classic Developers"),
+QT_TRANSLATE_NOOP("putic-core", "Copyright (C) 2014-%i The Putic Core Developers"),
 QT_TRANSLATE_NOOP("putic-core", "Corrupted block database detected"),
 QT_TRANSLATE_NOOP("putic-core", "Could not parse -rpcbind value %s as network address"),
 QT_TRANSLATE_NOOP("putic-core", "Could not parse masternode.conf"),
@@ -257,7 +257,7 @@ QT_TRANSLATE_NOOP("putic-core", "Error initializing wallet database environment 
 QT_TRANSLATE_NOOP("putic-core", "Error loading block database"),
 QT_TRANSLATE_NOOP("putic-core", "Error loading wallet.dat"),
 QT_TRANSLATE_NOOP("putic-core", "Error loading wallet.dat: Wallet corrupted"),
-QT_TRANSLATE_NOOP("putic-core", "Error loading wallet.dat: Wallet requires newer version of Putin Classic"),
+QT_TRANSLATE_NOOP("putic-core", "Error loading wallet.dat: Wallet requires newer version of Putic Core"),
 QT_TRANSLATE_NOOP("putic-core", "Error opening block database"),
 QT_TRANSLATE_NOOP("putic-core", "Error reading from database, shutting down."),
 QT_TRANSLATE_NOOP("putic-core", "Error recovering public key."),
@@ -285,7 +285,7 @@ QT_TRANSLATE_NOOP("putic-core", "Incompatible mode."),
 QT_TRANSLATE_NOOP("putic-core", "Incompatible version."),
 QT_TRANSLATE_NOOP("putic-core", "Incorrect or no genesis block found. Wrong datadir for network?"),
 QT_TRANSLATE_NOOP("putic-core", "Information"),
-QT_TRANSLATE_NOOP("putic-core", "Initialization sanity check failed. Putin Classic is shutting down."),
+QT_TRANSLATE_NOOP("putic-core", "Initialization sanity check failed. Putic Core is shutting down."),
 QT_TRANSLATE_NOOP("putic-core", "Input is not valid."),
 QT_TRANSLATE_NOOP("putic-core", "InstantX options:"),
 QT_TRANSLATE_NOOP("putic-core", "Insufficient funds."),
@@ -425,7 +425,7 @@ QT_TRANSLATE_NOOP("putic-core", "Verifying blocks..."),
 QT_TRANSLATE_NOOP("putic-core", "Verifying wallet..."),
 QT_TRANSLATE_NOOP("putic-core", "Wallet %s resides outside data directory %s"),
 QT_TRANSLATE_NOOP("putic-core", "Wallet is locked."),
-QT_TRANSLATE_NOOP("putic-core", "Wallet needed to be rewritten: restart Putin Classic to complete"),
+QT_TRANSLATE_NOOP("putic-core", "Wallet needed to be rewritten: restart Putic Core to complete"),
 QT_TRANSLATE_NOOP("putic-core", "Wallet options:"),
 QT_TRANSLATE_NOOP("putic-core", "Wallet window title"),
 QT_TRANSLATE_NOOP("putic-core", "Warning"),

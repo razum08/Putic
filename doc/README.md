@@ -1,4 +1,4 @@
-Putin Classic 0.12.0
+Putic Core 0.12.0
 =====================
 
 Setup
