@@ -34,7 +34,7 @@ Drag Putic-Qt to your applications folder, and then run Putic-Qt.
 
 * See the documentation at the [Putic Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
 for help and more information.
-* Ask for help on [#puticcoin](http://webchat.freenode.net?channels=puticcoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=puticcoin).
+* Ask for help on [#razum08](http://webchat.freenode.net?channels=razum08) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=razum08).
 * Ask for help on the [PuticTalk](https://putictalk.org/) forums.
 
 Building
@@ -46,7 +46,7 @@ The following are developer notes on how to build Putic on your native platform.
 
 Development
 ---------------------
-The Putic repo's [root README](https://github.com/puticcoin/putic/blob/master/README.md) contains relevant information on the development process and automated testing.
+The Putic repo's [root README](https://github.com/razum08/putic/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Coding Guidelines](coding.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -58,7 +58,7 @@ The Putic repo's [root README](https://github.com/puticcoin/putic/blob/master/RE
 
 ### Resources
 * Discuss on the [PuticTalk](https://putictalk.org/) forums, in the Development & Technical Discussion board.
-* Discuss on [#puticcoin](http://webchat.freenode.net/?channels=puticcoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=puticcoin).
+* Discuss on [#razum08](http://webchat.freenode.net/?channels=razum08) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=razum08).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

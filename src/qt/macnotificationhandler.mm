@@ -13,7 +13,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"io.puticcoin.Putic-Qt";
+        return @"io.razum08.Putic-Qt";
     } else {
         return [self __bundleIdentifier];
     }

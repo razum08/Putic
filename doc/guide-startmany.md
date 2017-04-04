@@ -137,7 +137,7 @@ I usually confirm that remote is on the correct block by issuing:
 
 ```puticd getinfo```
 
-And compare with the official explorer at http://explorer.puticcoin.io/chain/Putic
+And compare with the official explorer at http://explorer.razum08.io/chain/Putic
 
 ### Local
 

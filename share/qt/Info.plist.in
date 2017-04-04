@@ -32,7 +32,7 @@
   <string>Putic-Qt</string>
 
   <key>CFBundleIdentifier</key>
-  <string>io.puticcoin.Putic-Qt</string>
+  <string>io.razum08.Putic-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -65,7 +65,7 @@
         <string>application/x-putic-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>puticcoinmentrequest</string>
+          <string>razum08mentrequest</string>
         </array>
       </dict>
     </dict>

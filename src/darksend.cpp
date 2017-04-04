@@ -37,8 +37,8 @@ CActiveMasternode activeMasternode;
 
 /* *** BEGIN DARKSEND MAGIC - PUTIC **********
     Copyright (c) 2014-2015, Putic Developers
-        eduffield - evan@puticcoin.io
-        udjinm6   - udjinm6@puticcoin.io
+        eduffield - evan@razum08.io
+        udjinm6   - udjinm6@razum08.io
 */
 
 void CDarksendPool::ProcessMessageDarksend(CNode* pfrom, std::string& strCommand, CDataStream& vRecv)

@@ -23,8 +23,8 @@ Build-Depends: debhelper,
  libprotobuf-dev, protobuf-compiler
 Standards-Version: 3.9.2
 Homepage: http://putic.ddns.net/
-Vcs-Git: git://github.com/puticcoin/putic.git
-Vcs-Browser: http://github.com/puticcoin/putic
+Vcs-Git: git://github.com/razum08/putic.git
+Vcs-Browser: http://github.com/razum08/putic
 
 Package: puticd
 Architecture: any

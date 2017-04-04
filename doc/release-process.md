@@ -2,7 +2,7 @@ Release Process
 ====================
 
 * update translations (ping wumpus, Diapolo or tcatm on IRC)
-* see https://github.com/puticcoin/putic/blob/master/doc/translation_process.md#syncing-with-transifex
+* see https://github.com/razum08/putic/blob/master/doc/translation_process.md#syncing-with-transifex
 
 * * *
 
@@ -134,9 +134,9 @@ rm SHA256SUMS
 - Upload zips and installers, as well as `SHA256SUMS.asc` from last step, to the bitcoin.org server
   into `/var/www/bin/bitcoin-core-${VERSION}`
 
-- Update puticcoin.io version ***TODO***
+- Update razum08.io version ***TODO***
 
-  - First, check to see if the puticcoin.io maintainers have prepared a
+  - First, check to see if the razum08.io maintainers have prepared a
     release: https://github.com/bitcoin/bitcoin.org/labels/Releases
 
       - If they have, it will have previously failed their Travis CI
@@ -155,11 +155,11 @@ rm SHA256SUMS
 
   - Putic-development mailing list
 
-  - Update title of #puticcoin on Freenode IRC
+  - Update title of #razum08 on Freenode IRC
 
-  - Optionally reddit /r/puticcoin, ... but this will usually sort out itself
+  - Optionally reddit /r/razum08, ... but this will usually sort out itself
 
-- Notify Flare (?) ***TODO*** so that he can start building [https://launchpad.net/~puticcoin/+archive/ubuntu/putic](the PPAs) ***TODO***
+- Notify Flare (?) ***TODO*** so that he can start building [https://launchpad.net/~razum08/+archive/ubuntu/putic](the PPAs) ***TODO***
 
 - Add release notes for the new version to the directory `doc/release-notes` in git master
 
